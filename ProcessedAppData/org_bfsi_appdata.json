@@ -1,0 +1,957 @@
+{
+    "Retail Banking": {
+        "mobile": {
+            "frontend": {
+                "FR": [
+                    {
+                        "Feature": "User Authentication",
+                        "apps": {
+                            "India": [
+                                "SBI - YONO",
+                                "ICICI - iMobile"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Supports multi-language interface.",
+                                "Core functionalities must work seamlessly in all languages.",
+                                "Provide real-time transaction history."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Login issues due to incorrect credentials",
+                                "Failed fund transfers during peak hours",
+                                "Missing transaction details in account overview"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Fund Transfers",
+                        "apps": {
+                            "India": [
+                                "SBI - YONO",
+                                "ICICI - iMobile",
+                                "HDFC - Mobile Banking",
+                                "Axis Bank - Mobile Banking",
+                                "Kotak Mahindra Bank - Mobile Banking",
+                                "Yes Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Provide real-time loan eligibility checks.",
+                                "Enable voice-guided assistance for accessibility.",
+                                "Ensure data synchronization across all user sessions."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed loan status updates",
+                                "Transaction timeouts during high traffic",
+                                "Inaccurate bill payment statuses"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Account Overview",
+                        "apps": {
+                            "India": [
+                                "SBI - YONO",
+                                "ICICI - iMobile",
+                                "HDFC - Mobile Banking",
+                                "Axis Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Complete onboarding within 3 minutes.",
+                                "Guide users through key app features with tooltips.",
+                                "Ensure seamless navigation for new users."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed bill payments",
+                                "Login challenges with multi-factor authentication",
+                                "Inaccurate loan details display"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Bill Payments",
+                        "apps": {
+                            "India": [
+                                "SBI - YONO",
+                                "ICICI - iMobile",
+                                "HDFC - Mobile Banking",
+                                "Axis Bank - Mobile Banking",
+                                "Kotak Mahindra Bank - Mobile Banking",
+                                "Yes Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Provide real-time loan eligibility checks.",
+                                "Enable voice-guided assistance for accessibility.",
+                                "Ensure data synchronization across all user sessions."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed loan status updates",
+                                "Transaction timeouts during high traffic",
+                                "Inaccurate bill payment statuses"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Investment Services",
+                        "apps": {
+                            "India": [
+                                "SBI - YONO",
+                                "ICICI - iMobile",
+                                "Kotak Mahindra Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Add and manage beneficiaries within 30 minutes.",
+                                "Enable real-time transaction notifications.",
+                                "Provide clear error messages for invalid inputs."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed fund transfer confirmation",
+                                "Errors in blocking/unblocking cards",
+                                "Inconsistent balance updates"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Loan Services",
+                        "apps": {
+                            "India": [
+                                "SBI - YONO",
+                                "ICICI - iMobile",
+                                "Yes Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Provide real-time loan eligibility checks.",
+                                "Enable voice-guided assistance for accessibility.",
+                                "Ensure data synchronization across all user sessions."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed loan status updates",
+                                "Transaction timeouts during high traffic",
+                                "Inaccurate bill payment statuses"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Agri Solutions",
+                        "apps": {
+                            "India": [
+                                "SBI - YONO"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Biometric authentication must be set up during the initial login.",
+                                "Authentication must be completed within 2 seconds.",
+                                "Fallback to PIN after 5 failed biometric attempts."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Login failures due to server issues",
+                                "Delayed fund transfers",
+                                "Sync errors in transaction history",
+                                "Performance lags during high traffic"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Insurance Management",
+                        "apps": {
+                            "India": [
+                                "ICICI - iMobile"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Supports multi-language interface.",
+                                "Core functionalities must work seamlessly in all languages.",
+                                "Provide real-time transaction history."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Login issues due to incorrect credentials",
+                                "Failed fund transfers during peak hours",
+                                "Missing transaction details in account overview"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Loan Management",
+                        "apps": {
+                            "India": [
+                                "HDFC - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Enable card management with spending limits.",
+                                "Provide instant fund transfer confirmation.",
+                                "Ensure transactions are processed under 2 seconds."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Slow response during peak traffic",
+                                "Card blocking delays",
+                                "Incorrect account balances in dashboard"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Mobile Recharges",
+                        "apps": {
+                            "India": [
+                                "HDFC - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Enable card management with spending limits.",
+                                "Provide instant fund transfer confirmation.",
+                                "Ensure transactions are processed under 2 seconds."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Slow response during peak traffic",
+                                "Card blocking delays",
+                                "Incorrect account balances in dashboard"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Card Management",
+                        "apps": {
+                            "India": [
+                                "HDFC - Mobile Banking",
+                                "Kotak Mahindra Bank - Mobile Banking",
+                                "Paytm Payments Bank"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Complete UPI transactions with two-factor authentication.",
+                                "Send payment notifications in real-time.",
+                                "Provide a secure session timeout after 5 minutes of inactivity."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Failed UPI transactions during peak hours",
+                                "Wallet balance update delays",
+                                "Connectivity issues causing payment failures"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "UPI Payments",
+                        "apps": {
+                            "India": [
+                                "HDFC - Mobile Banking",
+                                "Paytm Payments Bank"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Complete UPI transactions with two-factor authentication.",
+                                "Send payment notifications in real-time.",
+                                "Provide a secure session timeout after 5 minutes of inactivity."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Failed UPI transactions during peak hours",
+                                "Wallet balance update delays",
+                                "Connectivity issues causing payment failures"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Loan Applications",
+                        "apps": {
+                            "India": [
+                                "Axis Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Complete onboarding within 3 minutes.",
+                                "Guide users through key app features with tooltips.",
+                                "Ensure seamless navigation for new users."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed bill payments",
+                                "Login challenges with multi-factor authentication",
+                                "Inaccurate loan details display"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Offers and Discounts",
+                        "apps": {
+                            "India": [
+                                "Axis Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Complete onboarding within 3 minutes.",
+                                "Guide users through key app features with tooltips.",
+                                "Ensure seamless navigation for new users."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed bill payments",
+                                "Login challenges with multi-factor authentication",
+                                "Inaccurate loan details display"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Security Features",
+                        "apps": {
+                            "India": [
+                                "Axis Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Complete onboarding within 3 minutes.",
+                                "Guide users through key app features with tooltips.",
+                                "Ensure seamless navigation for new users."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed bill payments",
+                                "Login challenges with multi-factor authentication",
+                                "Inaccurate loan details display"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Account Management",
+                        "apps": {
+                            "India": [
+                                "Kotak Mahindra Bank - Mobile Banking",
+                                "Yes Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Provide real-time loan eligibility checks.",
+                                "Enable voice-guided assistance for accessibility.",
+                                "Ensure data synchronization across all user sessions."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed loan status updates",
+                                "Transaction timeouts during high traffic",
+                                "Inaccurate bill payment statuses"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Wallet Management",
+                        "apps": {
+                            "India": [
+                                "Paytm Payments Bank"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Complete UPI transactions with two-factor authentication.",
+                                "Send payment notifications in real-time.",
+                                "Provide a secure session timeout after 5 minutes of inactivity."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Failed UPI transactions during peak hours",
+                                "Wallet balance update delays",
+                                "Connectivity issues causing payment failures"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Savings Account Services",
+                        "apps": {
+                            "India": [
+                                "Paytm Payments Bank"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Complete UPI transactions with two-factor authentication.",
+                                "Send payment notifications in real-time.",
+                                "Provide a secure session timeout after 5 minutes of inactivity."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Failed UPI transactions during peak hours",
+                                "Wallet balance update delays",
+                                "Connectivity issues causing payment failures"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Bill Payments & Recharges",
+                        "apps": {
+                            "India": [
+                                "Paytm Payments Bank"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Complete UPI transactions with two-factor authentication.",
+                                "Send payment notifications in real-time.",
+                                "Provide a secure session timeout after 5 minutes of inactivity."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Failed UPI transactions during peak hours",
+                                "Wallet balance update delays",
+                                "Connectivity issues causing payment failures"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Investment Options",
+                        "apps": {
+                            "India": [
+                                "Yes Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Provide real-time loan eligibility checks.",
+                                "Enable voice-guided assistance for accessibility.",
+                                "Ensure data synchronization across all user sessions."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed loan status updates",
+                                "Transaction timeouts during high traffic",
+                                "Inaccurate bill payment statuses"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    }
+                ],
+                "NFR": [
+                    {
+                        "Feature": "UI Responsiveness",
+                        "apps": {
+                            "India": [
+                                "SBI - YONO",
+                                "ICICI - iMobile",
+                                "HDFC - Mobile Banking",
+                                "Axis Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Complete onboarding within 3 minutes.",
+                                "Guide users through key app features with tooltips.",
+                                "Ensure seamless navigation for new users."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed bill payments",
+                                "Login challenges with multi-factor authentication",
+                                "Inaccurate loan details display"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Performance",
+                        "apps": {
+                            "India": [
+                                "SBI - YONO",
+                                "ICICI - iMobile",
+                                "HDFC - Mobile Banking",
+                                "Axis Bank - Mobile Banking",
+                                "Kotak Mahindra Bank - Mobile Banking",
+                                "Paytm Payments Bank",
+                                "Yes Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Provide real-time loan eligibility checks.",
+                                "Enable voice-guided assistance for accessibility.",
+                                "Ensure data synchronization across all user sessions."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed loan status updates",
+                                "Transaction timeouts during high traffic",
+                                "Inaccurate bill payment statuses"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Security",
+                        "apps": {
+                            "India": [
+                                "SBI - YONO",
+                                "ICICI - iMobile",
+                                "HDFC - Mobile Banking",
+                                "Axis Bank - Mobile Banking",
+                                "Kotak Mahindra Bank - Mobile Banking",
+                                "Paytm Payments Bank",
+                                "Yes Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Provide real-time loan eligibility checks.",
+                                "Enable voice-guided assistance for accessibility.",
+                                "Ensure data synchronization across all user sessions."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed loan status updates",
+                                "Transaction timeouts during high traffic",
+                                "Inaccurate bill payment statuses"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Scalability",
+                        "apps": {
+                            "India": [
+                                "SBI - YONO",
+                                "ICICI - iMobile",
+                                "HDFC - Mobile Banking",
+                                "Axis Bank - Mobile Banking",
+                                "Kotak Mahindra Bank - Mobile Banking",
+                                "Paytm Payments Bank",
+                                "Yes Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Provide real-time loan eligibility checks.",
+                                "Enable voice-guided assistance for accessibility.",
+                                "Ensure data synchronization across all user sessions."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed loan status updates",
+                                "Transaction timeouts during high traffic",
+                                "Inaccurate bill payment statuses"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Accessibility",
+                        "apps": {
+                            "India": [
+                                "SBI - YONO",
+                                "ICICI - iMobile",
+                                "Kotak Mahindra Bank - Mobile Banking",
+                                "Paytm Payments Bank",
+                                "Yes Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Provide real-time loan eligibility checks.",
+                                "Enable voice-guided assistance for accessibility.",
+                                "Ensure data synchronization across all user sessions."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed loan status updates",
+                                "Transaction timeouts during high traffic",
+                                "Inaccurate bill payment statuses"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Reliability",
+                        "apps": {
+                            "India": [
+                                "HDFC - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Enable card management with spending limits.",
+                                "Provide instant fund transfer confirmation.",
+                                "Ensure transactions are processed under 2 seconds."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Slow response during peak traffic",
+                                "Card blocking delays",
+                                "Incorrect account balances in dashboard"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Usability",
+                        "apps": {
+                            "India": [
+                                "Axis Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Complete onboarding within 3 minutes.",
+                                "Guide users through key app features with tooltips.",
+                                "Ensure seamless navigation for new users."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed bill payments",
+                                "Login challenges with multi-factor authentication",
+                                "Inaccurate loan details display"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Integration",
+                        "apps": {
+                            "India": [
+                                "Paytm Payments Bank",
+                                "Yes Bank - Mobile Banking"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Provide real-time loan eligibility checks.",
+                                "Enable voice-guided assistance for accessibility.",
+                                "Ensure data synchronization across all user sessions."
+                            ],
+                            "web": [
+                                "Core features functional",
+                                "Secure user authentication",
+                                "Responsive design"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "Delayed loan status updates",
+                                "Transaction timeouts during high traffic",
+                                "Inaccurate bill payment statuses"
+                            ],
+                            "web": [
+                                "Slow page load",
+                                "Session timeouts",
+                                "Broken links"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

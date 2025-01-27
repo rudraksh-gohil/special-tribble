@@ -1,0 +1,279 @@
+2025-01-26 22:56:33,217 - INFO - Global state file not found. Initialized with default values.
+2025-01-26 22:56:33,748 - INFO - __AppDataProcessor Sequence Initiated__
+2025-01-26 22:56:33,749 - INFO - Changes detected for file: RawAppData/bfsi_appdata.json
+2025-01-26 22:56:33,749 - INFO - Processing file: RawAppData/bfsi_appdata.json
+2025-01-26 22:56:33,749 - INFO - Loading input file: RawAppData/bfsi_appdata.json
+2025-01-26 22:56:33,749 - INFO - Organizing application data.
+2025-01-26 22:56:33,749 - INFO - Application data organized successfully.
+2025-01-26 22:56:33,749 - INFO - Saving processed data to file: ProcessedAppData/org_bfsi_appdata.json
+2025-01-26 22:56:33,751 - INFO - Data saved successfully to: ProcessedAppData/org_bfsi_appdata.json
+2025-01-26 22:56:33,751 - INFO - Changes detected for file: RawAppData/healthcare_appdata.json
+2025-01-26 22:56:33,751 - INFO - Processing file: RawAppData/healthcare_appdata.json
+2025-01-26 22:56:33,751 - INFO - Loading input file: RawAppData/healthcare_appdata.json
+2025-01-26 22:56:33,751 - INFO - Organizing application data.
+2025-01-26 22:56:33,753 - INFO - Application data organized successfully.
+2025-01-26 22:56:33,767 - INFO - Saving processed data to file: ProcessedAppData/org_healthcare_appdata.json
+2025-01-26 22:56:33,783 - INFO - Data saved successfully to: ProcessedAppData/org_healthcare_appdata.json
+2025-01-26 22:56:33,783 - INFO - __AppDataProcessor Sequence Executed__
+
+2025-01-26 22:56:33,783 - INFO - __UserStoryGeneration Sequence Initiated__
+2025-01-26 22:56:33,789 - INFO - No remaining paths for org_healthcare_appdata.json. Generated new paths: [['Wellness and Preventive Care', 'web', 'middleware', 'NFR'], ['Appointment Management', 'web', 'backend', 'NFR'], ['Medication Reminders', 'mobile', 'backend', 'FR'], ['Health Records Management', 'web', 'frontend', 'FR'], ['Telemedicine', 'web', 'frontend', 'FR'], ['Health Records Management', 'mobile', 'middleware', 'FR'], ['Appointment Management', 'mobile', 'middleware', 'NFR'], ['Wellness and Preventive Care', 'mobile', 'middleware', 'NFR'], ['AI Diagnostics', 'mobile', 'middleware', 'FR'], ['Appointment Management', 'mobile', 'backend', 'FR'], ['Appointment Management', 'mobile', 'frontend', 'NFR'], ['Emergency Services', 'mobile', 'backend', 'FR'], ['Wellness and Preventive Care', 'mobile', 'frontend', 'NFR'], ['Medication Reminders', 'web', 'middleware', 'NFR'], ['AI Diagnostics', 'mobile', 'frontend', 'FR'], ['Wellness and Preventive Care', 'web', 'backend', 'NFR'], ['Pharmacy Management', 'mobile', 'frontend', 'FR'], ['Health Records Management', 'web', 'backend', 'NFR'], ['Pharmacy Management', 'web', 'backend', 'FR'], ['Telemedicine', 'web', 'backend', 'NFR'], ['Medication Reminders', 'web', 'frontend', 'NFR'], ['Wellness and Preventive Care', 'mobile', 'middleware', 'FR'], ['E-Prescriptions', 'web', 'middleware', 'NFR'], ['Emergency Services', 'web', 'middleware', 'NFR'], ['Health Records Management', 'mobile', 'backend', 'NFR'], ['Pharmacy Management', 'mobile', 'backend', 'FR'], ['Medication Reminders', 'mobile', 'frontend', 'NFR'], ['Standardization and Patient Support', 'web', 'middleware', 'NFR'], ['E-Prescriptions', 'web', 'backend', 'FR'], ['Emergency Services', 'mobile', 'middleware', 'NFR'], ['E-Prescriptions', 'web', 'frontend', 'NFR'], ['Standardization and Patient Support', 'web', 'backend', 'FR'], ['Standardization and Patient Support', 'mobile', 'middleware', 'NFR'], ['Telemedicine', 'mobile', 'middleware', 'FR'], ['AI Diagnostics', 'web', 'middleware', 'NFR'], ['Standardization and Patient Support', 'web', 'frontend', 'NFR'], ['Emergency Services', 'web', 'backend', 'FR'], ['E-Prescriptions', 'mobile', 'backend', 'FR'], ['Emergency Services', 'web', 'frontend', 'NFR'], ['E-Prescriptions', 'mobile', 'frontend', 'NFR'], ['Emergency Services', 'mobile', 'frontend', 'NFR'], ['Standardization and Patient Support', 'mobile', 'backend', 'FR'], ['Pharmacy Management', 'web', 'middleware', 'NFR'], ['AI Diagnostics', 'web', 'backend', 'FR'], ['Health Records Management', 'mobile', 'frontend', 'FR'], ['Standardization and Patient Support', 'mobile', 'frontend', 'NFR'], ['Telemedicine', 'mobile', 'frontend', 'FR'], ['AI Diagnostics', 'web', 'frontend', 'NFR'], ['Appointment Management', 'web', 'middleware', 'NFR'], ['Health Records Management', 'mobile', 'backend', 'FR'], ['AI Diagnostics', 'mobile', 'backend', 'FR'], ['Pharmacy Management', 'web', 'frontend', 'NFR'], ['Wellness and Preventive Care', 'web', 'middleware', 'FR'], ['Appointment Management', 'web', 'backend', 'FR'], ['Pharmacy Management', 'mobile', 'middleware', 'NFR'], ['Standardization and Patient Support', 'mobile', 'middleware', 'FR'], ['Appointment Management', 'mobile', 'middleware', 'FR'], ['Medication Reminders', 'mobile', 'middleware', 'NFR'], ['Wellness and Preventive Care', 'mobile', 'backend', 'NFR'], ['Appointment Management', 'mobile', 'frontend', 'FR'], ['Telemedicine', 'mobile', 'backend', 'NFR'], ['Wellness and Preventive Care', 'mobile', 'frontend', 'FR'], ['Medication Reminders', 'web', 'middleware', 'FR'], ['Health Records Management', 'web', 'middleware', 'NFR'], ['Wellness and Preventive Care', 'web', 'backend', 'FR'], ['Telemedicine', 'web', 'middleware', 'NFR'], ['E-Prescriptions', 'mobile', 'middleware', 'NFR'], ['Wellness and Preventive Care', 'web', 'frontend', 'NFR'], ['Health Records Management', 'web', 'backend', 'FR'], ['Medication Reminders', 'mobile', 'backend', 'NFR'], ['Telemedicine', 'web', 'backend', 'FR'], ['Medication Reminders', 'web', 'frontend', 'FR'], ['Health Records Management', 'web', 'frontend', 'NFR'], ['Telemedicine', 'web', 'frontend', 'NFR'], ['E-Prescriptions', 'web', 'middleware', 'FR'], ['Emergency Services', 'web', 'middleware', 'FR'], ['AI Diagnostics', 'mobile', 'middleware', 'NFR'], ['Medication Reminders', 'mobile', 'frontend', 'FR'], ['Standardization and Patient Support', 'web', 'middleware', 'FR'], ['Appointment Management', 'mobile', 'backend', 'NFR'], ['Emergency Services', 'mobile', 'middleware', 'FR'], ['E-Prescriptions', 'web', 'frontend', 'FR'], ['Emergency Services', 'mobile', 'backend', 'NFR'], ['Appointment Management', 'web', 'frontend', 'NFR'], ['AI Diagnostics', 'mobile', 'frontend', 'NFR'], ['AI Diagnostics', 'web', 'middleware', 'FR'], ['Standardization and Patient Support', 'web', 'frontend', 'FR'], ['Emergency Services', 'web', 'frontend', 'FR'], ['E-Prescriptions', 'mobile', 'frontend', 'FR'], ['Pharmacy Management', 'mobile', 'frontend', 'NFR'], ['Emergency Services', 'mobile', 'frontend', 'FR'], ['Pharmacy Management', 'web', 'middleware', 'FR'], ['Pharmacy Management', 'web', 'backend', 'NFR'], ['Standardization and Patient Support', 'mobile', 'frontend', 'FR'], ['AI Diagnostics', 'web', 'frontend', 'FR'], ['Appointment Management', 'web', 'middleware', 'FR'], ['Medication Reminders', 'web', 'backend', 'NFR'], ['Pharmacy Management', 'mobile', 'backend', 'NFR'], ['Pharmacy Management', 'web', 'frontend', 'FR'], ['Pharmacy Management', 'mobile', 'middleware', 'FR'], ['Appointment Management', 'web', 'frontend', 'FR'], ['E-Prescriptions', 'web', 'backend', 'NFR'], ['Medication Reminders', 'mobile', 'middleware', 'FR'], ['Standardization and Patient Support', 'web', 'backend', 'NFR'], ['Health Records Management', 'mobile', 'middleware', 'NFR'], ['Wellness and Preventive Care', 'mobile', 'backend', 'FR'], ['Telemedicine', 'mobile', 'middleware', 'NFR'], ['Emergency Services', 'web', 'backend', 'NFR'], ['E-Prescriptions', 'mobile', 'backend', 'NFR'], ['Standardization and Patient Support', 'mobile', 'backend', 'NFR'], ['Telemedicine', 'mobile', 'backend', 'FR'], ['AI Diagnostics', 'web', 'backend', 'NFR'], ['Health Records Management', 'mobile', 'frontend', 'NFR'], ['Medication Reminders', 'web', 'backend', 'FR'], ['Telemedicine', 'mobile', 'frontend', 'NFR'], ['Health Records Management', 'web', 'middleware', 'FR'], ['Telemedicine', 'web', 'middleware', 'FR'], ['E-Prescriptions', 'mobile', 'middleware', 'FR'], ['Wellness and Preventive Care', 'web', 'frontend', 'FR'], ['AI Diagnostics', 'mobile', 'backend', 'NFR']]
+2025-01-26 22:56:34,415 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 22:56:36,166 - INFO - Generation Successful: healthcare -> Telemedicine -> mobile -> frontend -> FR
+2025-01-26 22:56:36,562 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 22:56:39,875 - INFO - Generation Successful: healthcare -> Telemedicine -> mobile -> frontend -> NFR
+2025-01-26 22:56:40,248 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 22:56:42,282 - INFO - Generation Successful: healthcare -> Telemedicine -> mobile -> backend -> FR
+2025-01-26 22:56:42,706 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 22:56:45,052 - INFO - Generation Successful: healthcare -> Telemedicine -> mobile -> backend -> NFR
+2025-01-26 22:56:45,149 - INFO - Interrupt received. Cleaning up...
+2025-01-26 22:56:45,150 - INFO - Adding closing bracket to LLM_org_healthcare_appdata.json
+2025-01-26 22:58:27,199 - INFO - Global state loaded successfully.
+2025-01-26 22:58:27,303 - INFO - __AppDataProcessor Sequence Initiated__
+2025-01-26 22:58:27,304 - INFO - No changes detected for file: RawAppData/bfsi_appdata.json
+2025-01-26 22:58:27,304 - INFO - Skipping unchanged file: RawAppData/bfsi_appdata.json
+2025-01-26 22:58:27,304 - INFO - No changes detected for file: RawAppData/healthcare_appdata.json
+2025-01-26 22:58:27,304 - INFO - Skipping unchanged file: RawAppData/healthcare_appdata.json
+2025-01-26 22:58:27,304 - INFO - __AppDataProcessor Sequence Executed__
+
+2025-01-26 22:58:27,304 - INFO - __UserStoryGeneration Sequence Initiated__
+2025-01-26 22:58:27,305 - INFO - Cleaned LLM_org_healthcare_appdata.json
+2025-01-26 22:58:27,321 - INFO - No remaining paths for org_healthcare_appdata.json. Generated new paths: [['E-Prescriptions', 'web', 'backend', 'FR'], ['AI Diagnostics', 'web', 'frontend', 'FR'], ['Wellness and Preventive Care', 'mobile', 'backend', 'NFR'], ['E-Prescriptions', 'mobile', 'backend', 'FR'], ['Health Records Management', 'web', 'backend', 'NFR'], ['Standardization and Patient Support', 'web', 'middleware', 'NFR'], ['Appointment Management', 'web', 'backend', 'FR'], ['AI Diagnostics', 'mobile', 'middleware', 'FR'], ['Standardization and Patient Support', 'mobile', 'frontend', 'NFR'], ['Emergency Services', 'web', 'middleware', 'NFR'], ['Medication Reminders', 'mobile', 'middleware', 'NFR'], ['Telemedicine', 'mobile', 'middleware', 'FR'], ['Health Records Management', 'mobile', 'frontend', 'NFR'], ['Pharmacy Management', 'mobile', 'frontend', 'FR'], ['E-Prescriptions', 'mobile', 'frontend', 'NFR'], ['Wellness and Preventive Care', 'web', 'frontend', 'FR'], ['Standardization and Patient Support', 'mobile', 'middleware', 'FR'], ['Appointment Management', 'web', 'frontend', 'NFR'], ['Emergency Services', 'web', 'backend', 'FR'], ['Appointment Management', 'mobile', 'frontend', 'NFR'], ['Emergency Services', 'mobile', 'backend', 'FR'], ['AI Diagnostics', 'web', 'backend', 'NFR'], ['Wellness and Preventive Care', 'mobile', 'middleware', 'FR'], ['Pharmacy Management', 'web', 'middleware', 'NFR'], ['Health Records Management', 'web', 'middleware', 'FR'], ['Telemedicine', 'mobile', 'backend', 'FR'], ['E-Prescriptions', 'web', 'middleware', 'FR'], ['Standardization and Patient Support', 'mobile', 'backend', 'FR'], ['Pharmacy Management', 'mobile', 'backend', 'FR'], ['Standardization and Patient Support', 'web', 'frontend', 'FR'], ['Appointment Management', 'web', 'middleware', 'FR'], ['AI Diagnostics', 'mobile', 'frontend', 'NFR'], ['Medication Reminders', 'web', 'frontend', 'FR'], ['Wellness and Preventive Care', 'mobile', 'backend', 'FR'], ['Medication Reminders', 'mobile', 'frontend', 'FR'], ['Health Records Management', 'mobile', 'backend', 'FR'], ['Wellness and Preventive Care', 'web', 'backend', 'NFR'], ['Telemedicine', 'mobile', 'frontend', 'NFR'], ['Emergency Services', 'mobile', 'middleware', 'FR'], ['AI Diagnostics', 'web', 'middleware', 'FR'], ['Appointment Management', 'mobile', 'backend', 'FR'], ['Medication Reminders', 'web', 'middleware', 'NFR'], ['Wellness and Preventive Care', 'mobile', 'frontend', 'NFR'], ['Telemedicine', 'web', 'middleware', 'FR'], ['Health Records Management', 'web', 'frontend', 'NFR'], ['Standardization and Patient Support', 'web', 'backend', 'NFR'], ['E-Prescriptions', 'web', 'frontend', 'NFR'], ['Medication Reminders', 'web', 'backend', 'NFR'], ['AI Diagnostics', 'mobile', 'backend', 'FR'], ['Pharmacy Management', 'mobile', 'middleware', 'FR'], ['Medication Reminders', 'mobile', 'backend', 'NFR'], ['E-Prescriptions', 'mobile', 'middleware', 'NFR'], ['Wellness and Preventive Care', 'web', 'middleware', 'FR'], ['Telemedicine', 'web', 'backend', 'FR'], ['Appointment Management', 'mobile', 'middleware', 'NFR'], ['Emergency Services', 'mobile', 'frontend', 'NFR'], ['Pharmacy Management', 'web', 'backend', 'FR'], ['E-Prescriptions', 'web', 'backend', 'NFR'], ['AI Diagnostics', 'web', 'frontend', 'NFR'], ['Wellness and Preventive Care', 'web', 'backend', 'FR'], ['Telemedicine', 'mobile', 'frontend', 'FR'], ['Health Records Management', 'web', 'backend', 'FR'], ['Standardization and Patient Support', 'web', 'middleware', 'FR'], ['AI Diagnostics', 'mobile', 'middleware', 'NFR'], ['Standardization and Patient Support', 'mobile', 'frontend', 'FR'], ['Telemedicine', 'web', 'frontend', 'NFR'], ['Emergency Services', 'web', 'middleware', 'FR'], ['Medication Reminders', 'mobile', 'middleware', 'FR'], ['Telemedicine', 'mobile', 'middleware', 'NFR'], ['Pharmacy Management', 'web', 'frontend', 'NFR'], ['Pharmacy Management', 'mobile', 'frontend', 'NFR'], ['Health Records Management', 'mobile', 'frontend', 'FR'], ['Wellness and Preventive Care', 'web', 'frontend', 'NFR'], ['E-Prescriptions', 'mobile', 'frontend', 'FR'], ['Standardization and Patient Support', 'mobile', 'middleware', 'NFR'], ['Emergency Services', 'web', 'backend', 'NFR'], ['Medication Reminders', 'web', 'backend', 'FR'], ['Appointment Management', 'web', 'frontend', 'FR'], ['Wellness and Preventive Care', 'mobile', 'middleware', 'NFR'], ['Appointment Management', 'mobile', 'frontend', 'FR'], ['Health Records Management', 'mobile', 'middleware', 'NFR'], ['AI Diagnostics', 'web', 'backend', 'FR'], ['Telemedicine', 'mobile', 'backend', 'NFR'], ['Pharmacy Management', 'web', 'middleware', 'FR'], ['E-Prescriptions', 'web', 'middleware', 'NFR'], ['Standardization and Patient Support', 'mobile', 'backend', 'NFR'], ['Pharmacy Management', 'mobile', 'backend', 'NFR'], ['Emergency Services', 'mobile', 'frontend', 'FR'], ['Standardization and Patient Support', 'web', 'frontend', 'NFR'], ['Appointment Management', 'web', 'middleware', 'NFR'], ['Medication Reminders', 'web', 'frontend', 'NFR'], ['AI Diagnostics', 'mobile', 'frontend', 'FR'], ['Emergency Services', 'web', 'frontend', 'NFR'], ['Medication Reminders', 'mobile', 'frontend', 'NFR'], ['Health Records Management', 'mobile', 'backend', 'NFR'], ['E-Prescriptions', 'mobile', 'backend', 'NFR'], ['Emergency Services', 'mobile', 'middleware', 'NFR'], ['Telemedicine', 'web', 'frontend', 'FR'], ['Appointment Management', 'web', 'backend', 'NFR'], ['AI Diagnostics', 'web', 'middleware', 'NFR'], ['Appointment Management', 'mobile', 'backend', 'NFR'], ['Pharmacy Management', 'web', 'frontend', 'FR'], ['Medication Reminders', 'web', 'middleware', 'FR'], ['Telemedicine', 'web', 'middleware', 'NFR'], ['Wellness and Preventive Care', 'mobile', 'frontend', 'FR'], ['Health Records Management', 'web', 'frontend', 'FR'], ['Standardization and Patient Support', 'web', 'backend', 'FR'], ['AI Diagnostics', 'mobile', 'backend', 'NFR'], ['E-Prescriptions', 'web', 'frontend', 'FR'], ['Pharmacy Management', 'mobile', 'middleware', 'NFR'], ['Health Records Management', 'mobile', 'middleware', 'FR'], ['Emergency Services', 'mobile', 'backend', 'NFR'], ['Medication Reminders', 'mobile', 'backend', 'FR'], ['Wellness and Preventive Care', 'web', 'middleware', 'NFR'], ['E-Prescriptions', 'mobile', 'middleware', 'FR'], ['Health Records Management', 'web', 'middleware', 'NFR'], ['Telemedicine', 'web', 'backend', 'NFR'], ['Appointment Management', 'mobile', 'middleware', 'FR'], ['Pharmacy Management', 'web', 'backend', 'NFR'], ['Emergency Services', 'web', 'frontend', 'FR']]
+2025-01-26 22:58:28,004 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 22:58:30,193 - INFO - Generation Successful: healthcare -> Telemedicine -> mobile -> middleware -> FR
+2025-01-26 22:58:30,195 - INFO - Unprocessed paths remain for org_healthcare_appdata.json: [['E-Prescriptions', 'web', 'backend', 'FR'], ['AI Diagnostics', 'web', 'frontend', 'FR'], ['Wellness and Preventive Care', 'mobile', 'backend', 'NFR'], ['E-Prescriptions', 'mobile', 'backend', 'FR'], ['Health Records Management', 'web', 'backend', 'NFR'], ['Standardization and Patient Support', 'web', 'middleware', 'NFR'], ['Appointment Management', 'web', 'backend', 'FR'], ['AI Diagnostics', 'mobile', 'middleware', 'FR'], ['Standardization and Patient Support', 'mobile', 'frontend', 'NFR'], ['Emergency Services', 'web', 'middleware', 'NFR'], ['Medication Reminders', 'mobile', 'middleware', 'NFR'], ['Health Records Management', 'mobile', 'frontend', 'NFR'], ['Pharmacy Management', 'mobile', 'frontend', 'FR'], ['E-Prescriptions', 'mobile', 'frontend', 'NFR'], ['Wellness and Preventive Care', 'web', 'frontend', 'FR'], ['Standardization and Patient Support', 'mobile', 'middleware', 'FR'], ['Appointment Management', 'web', 'frontend', 'NFR'], ['Emergency Services', 'web', 'backend', 'FR'], ['Appointment Management', 'mobile', 'frontend', 'NFR'], ['Emergency Services', 'mobile', 'backend', 'FR'], ['AI Diagnostics', 'web', 'backend', 'NFR'], ['Wellness and Preventive Care', 'mobile', 'middleware', 'FR'], ['Pharmacy Management', 'web', 'middleware', 'NFR'], ['Health Records Management', 'web', 'middleware', 'FR'], ['Telemedicine', 'mobile', 'backend', 'FR'], ['E-Prescriptions', 'web', 'middleware', 'FR'], ['Standardization and Patient Support', 'mobile', 'backend', 'FR'], ['Pharmacy Management', 'mobile', 'backend', 'FR'], ['Standardization and Patient Support', 'web', 'frontend', 'FR'], ['Appointment Management', 'web', 'middleware', 'FR'], ['AI Diagnostics', 'mobile', 'frontend', 'NFR'], ['Medication Reminders', 'web', 'frontend', 'FR'], ['Wellness and Preventive Care', 'mobile', 'backend', 'FR'], ['Medication Reminders', 'mobile', 'frontend', 'FR'], ['Health Records Management', 'mobile', 'backend', 'FR'], ['Wellness and Preventive Care', 'web', 'backend', 'NFR'], ['Telemedicine', 'mobile', 'frontend', 'NFR'], ['Emergency Services', 'mobile', 'middleware', 'FR'], ['AI Diagnostics', 'web', 'middleware', 'FR'], ['Appointment Management', 'mobile', 'backend', 'FR'], ['Medication Reminders', 'web', 'middleware', 'NFR'], ['Wellness and Preventive Care', 'mobile', 'frontend', 'NFR'], ['Telemedicine', 'web', 'middleware', 'FR'], ['Health Records Management', 'web', 'frontend', 'NFR'], ['Standardization and Patient Support', 'web', 'backend', 'NFR'], ['E-Prescriptions', 'web', 'frontend', 'NFR'], ['Medication Reminders', 'web', 'backend', 'NFR'], ['AI Diagnostics', 'mobile', 'backend', 'FR'], ['Pharmacy Management', 'mobile', 'middleware', 'FR'], ['Medication Reminders', 'mobile', 'backend', 'NFR'], ['E-Prescriptions', 'mobile', 'middleware', 'NFR'], ['Wellness and Preventive Care', 'web', 'middleware', 'FR'], ['Telemedicine', 'web', 'backend', 'FR'], ['Appointment Management', 'mobile', 'middleware', 'NFR'], ['Emergency Services', 'mobile', 'frontend', 'NFR'], ['Pharmacy Management', 'web', 'backend', 'FR'], ['E-Prescriptions', 'web', 'backend', 'NFR'], ['AI Diagnostics', 'web', 'frontend', 'NFR'], ['Wellness and Preventive Care', 'web', 'backend', 'FR'], ['Telemedicine', 'mobile', 'frontend', 'FR'], ['Health Records Management', 'web', 'backend', 'FR'], ['Standardization and Patient Support', 'web', 'middleware', 'FR'], ['AI Diagnostics', 'mobile', 'middleware', 'NFR'], ['Standardization and Patient Support', 'mobile', 'frontend', 'FR'], ['Telemedicine', 'web', 'frontend', 'NFR'], ['Emergency Services', 'web', 'middleware', 'FR'], ['Medication Reminders', 'mobile', 'middleware', 'FR'], ['Telemedicine', 'mobile', 'middleware', 'NFR'], ['Pharmacy Management', 'web', 'frontend', 'NFR'], ['Pharmacy Management', 'mobile', 'frontend', 'NFR'], ['Health Records Management', 'mobile', 'frontend', 'FR'], ['Wellness and Preventive Care', 'web', 'frontend', 'NFR'], ['E-Prescriptions', 'mobile', 'frontend', 'FR'], ['Standardization and Patient Support', 'mobile', 'middleware', 'NFR'], ['Emergency Services', 'web', 'backend', 'NFR'], ['Medication Reminders', 'web', 'backend', 'FR'], ['Appointment Management', 'web', 'frontend', 'FR'], ['Wellness and Preventive Care', 'mobile', 'middleware', 'NFR'], ['Appointment Management', 'mobile', 'frontend', 'FR'], ['Health Records Management', 'mobile', 'middleware', 'NFR'], ['AI Diagnostics', 'web', 'backend', 'FR'], ['Telemedicine', 'mobile', 'backend', 'NFR'], ['Pharmacy Management', 'web', 'middleware', 'FR'], ['E-Prescriptions', 'web', 'middleware', 'NFR'], ['Standardization and Patient Support', 'mobile', 'backend', 'NFR'], ['Pharmacy Management', 'mobile', 'backend', 'NFR'], ['Emergency Services', 'mobile', 'frontend', 'FR'], ['Standardization and Patient Support', 'web', 'frontend', 'NFR'], ['Appointment Management', 'web', 'middleware', 'NFR'], ['Medication Reminders', 'web', 'frontend', 'NFR'], ['AI Diagnostics', 'mobile', 'frontend', 'FR'], ['Emergency Services', 'web', 'frontend', 'NFR'], ['Medication Reminders', 'mobile', 'frontend', 'NFR'], ['Health Records Management', 'mobile', 'backend', 'NFR'], ['E-Prescriptions', 'mobile', 'backend', 'NFR'], ['Emergency Services', 'mobile', 'middleware', 'NFR'], ['Telemedicine', 'web', 'frontend', 'FR'], ['Appointment Management', 'web', 'backend', 'NFR'], ['AI Diagnostics', 'web', 'middleware', 'NFR'], ['Appointment Management', 'mobile', 'backend', 'NFR'], ['Pharmacy Management', 'web', 'frontend', 'FR'], ['Medication Reminders', 'web', 'middleware', 'FR'], ['Telemedicine', 'web', 'middleware', 'NFR'], ['Wellness and Preventive Care', 'mobile', 'frontend', 'FR'], ['Health Records Management', 'web', 'frontend', 'FR'], ['Standardization and Patient Support', 'web', 'backend', 'FR'], ['AI Diagnostics', 'mobile', 'backend', 'NFR'], ['E-Prescriptions', 'web', 'frontend', 'FR'], ['Pharmacy Management', 'mobile', 'middleware', 'NFR'], ['Health Records Management', 'mobile', 'middleware', 'FR'], ['Emergency Services', 'mobile', 'backend', 'NFR'], ['Medication Reminders', 'mobile', 'backend', 'FR'], ['Wellness and Preventive Care', 'web', 'middleware', 'NFR'], ['E-Prescriptions', 'mobile', 'middleware', 'FR'], ['Health Records Management', 'web', 'middleware', 'NFR'], ['Telemedicine', 'web', 'backend', 'NFR'], ['Appointment Management', 'mobile', 'middleware', 'FR'], ['Pharmacy Management', 'web', 'backend', 'NFR'], ['Emergency Services', 'web', 'frontend', 'FR']]
+2025-01-26 22:58:30,195 - INFO - Data successfully written to LLM_Processed_Files/LLM_org_healthcare_appdata.json
+2025-01-26 22:58:30,201 - INFO - No remaining paths for org_bfsi_appdata.json. Generated new paths: [['Retail Banking', 'mobile', 'frontend', 'FR'], ['Retail Banking', 'web', 'middleware', 'NFR'], ['Retail Banking', 'web', 'middleware', 'FR'], ['Retail Banking', 'mobile', 'backend', 'FR'], ['Retail Banking', 'mobile', 'backend', 'NFR'], ['Retail Banking', 'web', 'backend', 'FR'], ['Retail Banking', 'mobile', 'middleware', 'NFR'], ['Retail Banking', 'web', 'backend', 'NFR'], ['Retail Banking', 'mobile', 'middleware', 'FR'], ['Retail Banking', 'mobile', 'frontend', 'NFR']]
+2025-01-26 22:58:30,738 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 22:58:34,274 - INFO - Generation Successful: bfsi -> Retail Banking -> mobile -> frontend -> FR
+2025-01-26 22:58:34,277 - INFO - Unprocessed paths remain for org_bfsi_appdata.json: [['Retail Banking', 'web', 'middleware', 'NFR'], ['Retail Banking', 'web', 'middleware', 'FR'], ['Retail Banking', 'mobile', 'backend', 'FR'], ['Retail Banking', 'mobile', 'backend', 'NFR'], ['Retail Banking', 'web', 'backend', 'FR'], ['Retail Banking', 'mobile', 'middleware', 'NFR'], ['Retail Banking', 'web', 'backend', 'NFR'], ['Retail Banking', 'mobile', 'middleware', 'FR'], ['Retail Banking', 'mobile', 'frontend', 'NFR']]
+2025-01-26 22:58:34,277 - INFO - Data successfully written to LLM_Processed_Files/LLM_org_bfsi_appdata.json
+2025-01-26 22:58:34,277 - INFO - Global story limit reached. Exiting UserStoryGeneration.
+2025-01-26 22:58:34,277 - INFO - __UserStoryGeneration Sequence Executed__
+
+2025-01-26 22:58:34,281 - INFO - __Matter2Formatted Sequence Initiated__
+2025-01-26 22:58:34,281 - INFO - Processing file: LLM_Processed_Files/LLM_org_healthcare_appdata.json with domain: healthcare
+2025-01-26 22:58:34,283 - INFO - Data successfully saved to Formatted_Schema_Files/Merged_LLM_org_healthcare_appdata.json
+2025-01-26 22:58:34,283 - INFO - Processing file: LLM_Processed_Files/LLM_org_bfsi_appdata.json with domain: bfsi
+2025-01-26 22:58:34,284 - INFO - Data successfully saved to Formatted_Schema_Files/Merged_LLM_org_bfsi_appdata.json
+2025-01-26 22:58:34,284 - INFO - __Matter2Formatted Sequence Executed__
+
+2025-01-26 22:58:34,284 - INFO - __MongoDataUploader Sequence Initiated__
+2025-01-26 22:58:34,288 - INFO - Successfully connected to MongoDB.
+2025-01-26 22:58:34,288 - INFO - Successfully read JSON data from Formatted_Schema_Files/Merged_LLM_org_healthcare_appdata.json
+2025-01-26 22:58:46,556 - INFO - Interrupt received. Cleaning up...
+2025-01-26 23:06:08,495 - INFO - Error loading global state: Expecting value: line 1 column 1 (char 0). Reinitializing state.
+2025-01-26 23:06:08,613 - INFO - __AppDataProcessor Sequence Initiated__
+2025-01-26 23:06:08,614 - INFO - No changes detected for file: RawAppData/bfsi_appdata.json
+2025-01-26 23:06:08,614 - INFO - Skipping unchanged file: RawAppData/bfsi_appdata.json
+2025-01-26 23:06:08,614 - INFO - No changes detected for file: RawAppData/healthcare_appdata.json
+2025-01-26 23:06:08,614 - INFO - Skipping unchanged file: RawAppData/healthcare_appdata.json
+2025-01-26 23:06:08,614 - INFO - __AppDataProcessor Sequence Executed__
+
+2025-01-26 23:06:08,614 - INFO - __UserStoryGeneration Sequence Initiated__
+2025-01-26 23:06:08,615 - INFO - Cleaned LLM_org_healthcare_appdata.json
+2025-01-26 23:06:08,615 - INFO - Cleaned LLM_org_bfsi_appdata.json
+2025-01-26 23:06:08,615 - INFO - No remaining paths for org_healthcare_appdata.json. Generated new paths: [['Telemedicine', 'mobile', 'frontend', 'FR']]
+2025-01-26 23:06:09,261 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 23:06:10,901 - INFO - Generation Successful: healthcare -> Telemedicine -> mobile -> frontend -> FR
+2025-01-26 23:06:10,902 - INFO - All paths for org_healthcare_appdata.json have been processed successfully!
+2025-01-26 23:06:10,902 - INFO - Data successfully written to LLM_Processed_Files/LLM_org_healthcare_appdata.json
+2025-01-26 23:06:10,905 - INFO - No remaining paths for org_bfsi_appdata.json. Generated new paths: [['Retail Banking', 'mobile', 'frontend', 'NFR'], ['Retail Banking', 'mobile', 'frontend', 'FR']]
+2025-01-26 23:06:11,653 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-26 23:06:13,567 - INFO - Generation Successful: bfsi -> Retail Banking -> mobile -> frontend -> FR
+2025-01-26 23:06:13,569 - INFO - Unprocessed paths remain for org_bfsi_appdata.json: [['Retail Banking', 'mobile', 'frontend', 'NFR']]
+2025-01-26 23:06:13,569 - INFO - Data successfully written to LLM_Processed_Files/LLM_org_bfsi_appdata.json
+2025-01-26 23:06:13,569 - INFO - Global story limit reached. Exiting UserStoryGeneration.
+2025-01-26 23:06:13,570 - INFO - __UserStoryGeneration Sequence Executed__
+
+2025-01-26 23:06:13,572 - INFO - __Matter2Formatted Sequence Initiated__
+2025-01-26 23:06:13,572 - INFO - Processing file: LLM_Processed_Files/LLM_org_healthcare_appdata.json with domain: healthcare
+2025-01-26 23:06:13,575 - INFO - Data successfully saved to Formatted_Schema_Files/Merged_LLM_org_healthcare_appdata.json
+2025-01-26 23:06:13,576 - INFO - Processing file: LLM_Processed_Files/LLM_org_bfsi_appdata.json with domain: bfsi
+2025-01-26 23:06:13,578 - INFO - Data successfully saved to Formatted_Schema_Files/Merged_LLM_org_bfsi_appdata.json
+2025-01-26 23:06:13,578 - INFO - __Matter2Formatted Sequence Executed__
+
+2025-01-26 23:06:13,578 - INFO - __MongoDataUploader Sequence Initiated__
+2025-01-26 23:06:13,584 - INFO - Successfully connected to MongoDB.
+2025-01-26 23:06:13,585 - INFO - Successfully read JSON data from Formatted_Schema_Files/Merged_LLM_org_healthcare_appdata.json
+2025-01-26 23:06:30,592 - INFO - Interrupt received. Cleaning up...
+2025-01-27 01:14:07,490 - INFO - Global state file not found. Initialized with default values.
+2025-01-27 01:14:07,598 - INFO - __AppDataProcessor Sequence Initiated__
+2025-01-27 01:14:07,600 - INFO - Changes detected for file: RawAppData/SYS_OTT.json
+2025-01-27 01:14:07,600 - INFO - Processing file: RawAppData/SYS_OTT.json
+2025-01-27 01:14:07,600 - INFO - Loading input file: RawAppData/SYS_OTT.json
+2025-01-27 01:14:07,602 - INFO - Organizing application data.
+2025-01-27 01:14:07,602 - INFO - Application data organized successfully.
+2025-01-27 01:14:07,602 - INFO - Saving processed data to file: ProcessedAppData/org_SYS_OTT.json
+2025-01-27 01:14:07,602 - INFO - Data saved successfully to: ProcessedAppData/org_SYS_OTT.json
+2025-01-27 01:14:07,602 - INFO - No changes detected for file: RawAppData/bfsi_appdata.json
+2025-01-27 01:14:07,602 - INFO - Skipping unchanged file: RawAppData/bfsi_appdata.json
+2025-01-27 01:14:07,603 - INFO - No changes detected for file: RawAppData/healthcare_appdata.json
+2025-01-27 01:14:07,603 - INFO - Skipping unchanged file: RawAppData/healthcare_appdata.json
+2025-01-27 01:14:07,603 - INFO - __AppDataProcessor Sequence Executed__
+
+2025-01-27 01:14:07,603 - INFO - __UserStoryGeneration Sequence Initiated__
+2025-01-27 01:14:07,603 - INFO - Cleaned VAR_OTT_variations.json
+2025-01-27 01:14:07,604 - INFO - Cleaned LLM_org_healthcare_appdata.json
+2025-01-27 01:14:07,604 - INFO - Cleaned LLM_org_bfsi_appdata.json
+2025-01-27 01:14:07,604 - INFO - No remaining paths for org_healthcare_appdata.json. Generated new paths: [['Telemedicine', 'mobile', 'frontend', 'FR']]
+2025-01-27 01:14:08,192 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-27 01:14:11,274 - INFO - Generation Successful: healthcare -> Telemedicine -> mobile -> frontend -> FR
+2025-01-27 01:14:11,276 - INFO - All paths for org_healthcare_appdata.json have been processed successfully!
+2025-01-27 01:14:11,276 - INFO - Data successfully written to LLM_Processed_Files/LLM_org_healthcare_appdata.json
+2025-01-27 01:14:11,278 - INFO - No remaining paths for org_bfsi_appdata.json. Generated new paths: [['Retail Banking', 'mobile', 'frontend', 'FR'], ['Retail Banking', 'mobile', 'frontend', 'NFR']]
+2025-01-27 01:14:11,634 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-27 01:14:15,039 - INFO - Generation Successful: bfsi -> Retail Banking -> mobile -> frontend -> FR
+2025-01-27 01:14:15,042 - INFO - Unprocessed paths remain for org_bfsi_appdata.json: [['Retail Banking', 'mobile', 'frontend', 'NFR']]
+2025-01-27 01:14:15,042 - INFO - Data successfully written to LLM_Processed_Files/LLM_org_bfsi_appdata.json
+2025-01-27 01:14:15,042 - INFO - Global story limit reached. Exiting UserStoryGeneration.
+2025-01-27 01:14:15,042 - INFO - __UserStoryGeneration Sequence Executed__
+
+2025-01-27 01:14:15,043 - INFO - __Matter2Formatted Sequence Initiated__
+2025-01-27 01:14:15,044 - ERROR - Error during Matter2FormattedData: 'NoneType' object has no attribute 'group'
+2025-01-27 01:16:59,491 - INFO - Global state file not found. Initialized with default values.
+2025-01-27 01:18:44,722 - INFO - Global state file not found. Initialized with default values.
+2025-01-27 01:18:44,832 - INFO - __UserStoryGeneration Sequence Initiated__
+2025-01-27 01:18:44,832 - INFO - Cleaned VAR_OTT_variations.json
+2025-01-27 01:18:44,832 - INFO - Cleaned LLM_org_healthcare_appdata.json
+2025-01-27 01:18:44,832 - INFO - Cleaned LLM_org_bfsi_appdata.json
+2025-01-27 01:18:44,833 - INFO - No remaining paths for org_healthcare_appdata.json. Generated new paths: [['Telemedicine', 'mobile', 'frontend', 'FR']]
+2025-01-27 01:18:45,698 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-27 01:18:46,840 - INFO - Generation Successful: healthcare -> Telemedicine -> mobile -> frontend -> FR
+2025-01-27 01:18:46,841 - INFO - All paths for org_healthcare_appdata.json have been processed successfully!
+2025-01-27 01:18:46,841 - INFO - Data successfully written to LLM_Processed_Files/LLM_org_healthcare_appdata.json
+2025-01-27 01:18:46,843 - INFO - No remaining paths for org_bfsi_appdata.json. Generated new paths: [['Retail Banking', 'mobile', 'frontend', 'NFR'], ['Retail Banking', 'mobile', 'frontend', 'FR']]
+2025-01-27 01:18:47,403 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-27 01:18:49,245 - INFO - Generation Successful: bfsi -> Retail Banking -> mobile -> frontend -> FR
+2025-01-27 01:18:49,246 - INFO - Unprocessed paths remain for org_bfsi_appdata.json: [['Retail Banking', 'mobile', 'frontend', 'NFR']]
+2025-01-27 01:18:49,246 - INFO - Data successfully written to LLM_Processed_Files/LLM_org_bfsi_appdata.json
+2025-01-27 01:18:49,246 - INFO - Global story limit reached. Exiting UserStoryGeneration.
+2025-01-27 01:18:49,246 - INFO - __UserStoryGeneration Sequence Executed__
+
+2025-01-27 01:18:49,248 - INFO - __Matter2Formatted Sequence Initiated__
+2025-01-27 01:18:49,248 - WARNING - Filename VAR_OTT_variations.json does not match the expected pattern.
+2025-01-27 01:18:49,248 - INFO - Processing file: LLM_Processed_Files/VAR_OTT_variations.json with domain: Unknown Domain
+2025-01-27 01:18:49,248 - ERROR - Error reading JSON file LLM_Processed_Files/VAR_OTT_variations.json: Expecting value: line 1 column 1 (char 0)
+2025-01-27 01:18:49,248 - ERROR - Error processing LLM_Processed_Files/VAR_OTT_variations.json: Expecting value: line 1 column 1 (char 0)
+2025-01-27 01:18:49,248 - INFO - Processing file: LLM_Processed_Files/LLM_org_healthcare_appdata.json with domain: healthcare
+2025-01-27 01:18:49,250 - INFO - Data successfully saved to Formatted_Schema_Files/Merged_LLM_org_healthcare_appdata.json
+2025-01-27 01:18:49,250 - INFO - Processing file: LLM_Processed_Files/LLM_org_bfsi_appdata.json with domain: bfsi
+2025-01-27 01:18:49,252 - INFO - Data successfully saved to Formatted_Schema_Files/Merged_LLM_org_bfsi_appdata.json
+2025-01-27 01:18:49,252 - INFO - __Matter2Formatted Sequence Executed__
+
+2025-01-27 01:18:49,252 - INFO - __MongoDataUploader Sequence Initiated__
+2025-01-27 01:18:49,255 - INFO - Successfully connected to MongoDB.
+2025-01-27 01:18:49,256 - INFO - Successfully read JSON data from Formatted_Schema_Files/Merged_LLM_org_healthcare_appdata.json
+2025-01-27 01:19:19,547 - ERROR - Failed to save data to MongoDB: 127.0.0.1:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 679691a1b62404f8a4241516, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-01-27 01:19:19,548 - INFO - Data from Merged_LLM_org_healthcare_appdata.json uploaded to MongoDB.
+2025-01-27 01:19:19,549 - INFO - Successfully read JSON data from Formatted_Schema_Files/Merged_LLM_org_bfsi_appdata.json
+2025-01-27 01:19:49,781 - ERROR - Failed to save data to MongoDB: 127.0.0.1:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 679691a1b62404f8a4241516, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-01-27 01:19:49,782 - INFO - Data from Merged_LLM_org_bfsi_appdata.json uploaded to MongoDB.
+2025-01-27 01:19:49,783 - INFO - __MongoDataUploader Sequence Executed
+
+2025-01-27 01:19:49,783 - INFO - __Neo4jDataUploader Sequence Initiated__
+2025-01-27 01:19:49,800 - INFO - Successfully connected to Neo4j!
+2025-01-27 01:19:51,089 - INFO - Data processing completed successfully for Merged_LLM_org_healthcare_appdata.json.
+2025-01-27 01:19:51,093 - ERROR - Error during Neo4jDataUploader: 'subdomain name'
+2025-01-27 01:23:52,515 - INFO - Error loading global state: Expecting value: line 1 column 1 (char 0). Reinitializing state.
+2025-01-27 01:23:52,621 - INFO - __AppDataProcessor Sequence Initiated__
+2025-01-27 01:23:52,622 - INFO - No changes detected for file: RawAppData/bfsi_appdata.json
+2025-01-27 01:23:52,622 - INFO - Skipping unchanged file: RawAppData/bfsi_appdata.json
+2025-01-27 01:23:52,622 - INFO - No changes detected for file: RawAppData/healthcare_appdata.json
+2025-01-27 01:23:52,622 - INFO - Skipping unchanged file: RawAppData/healthcare_appdata.json
+2025-01-27 01:23:52,622 - INFO - __AppDataProcessor Sequence Executed__
+
+2025-01-27 01:23:52,622 - INFO - __UserStoryGeneration Sequence Initiated__
+2025-01-27 01:23:52,622 - INFO - Cleaned VAR_OTT_variations.json
+2025-01-27 01:23:52,623 - INFO - Cleaned LLM_org_healthcare_appdata.json
+2025-01-27 01:23:52,623 - INFO - Cleaned LLM_org_bfsi_appdata.json
+2025-01-27 01:23:52,623 - INFO - No remaining paths for org_healthcare_appdata.json. Generated new paths: [['Telemedicine', 'mobile', 'frontend', 'FR']]
+2025-01-27 01:23:53,206 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-27 01:23:55,337 - INFO - Generation Successful: healthcare -> Telemedicine -> mobile -> frontend -> FR
+2025-01-27 01:23:55,337 - INFO - All paths for org_healthcare_appdata.json have been processed successfully!
+2025-01-27 01:23:55,338 - INFO - Data successfully written to LLM_Processed_Files/LLM_org_healthcare_appdata.json
+2025-01-27 01:23:55,338 - INFO - No remaining paths for org_bfsi_appdata.json. Generated new paths: [['Retail Banking', 'mobile', 'frontend', 'NFR'], ['Retail Banking', 'mobile', 'frontend', 'FR']]
+2025-01-27 01:23:55,651 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-27 01:23:58,660 - INFO - Generation Successful: bfsi -> Retail Banking -> mobile -> frontend -> FR
+2025-01-27 01:23:58,662 - INFO - Unprocessed paths remain for org_bfsi_appdata.json: [['Retail Banking', 'mobile', 'frontend', 'NFR']]
+2025-01-27 01:23:58,662 - INFO - Data successfully written to LLM_Processed_Files/LLM_org_bfsi_appdata.json
+2025-01-27 01:23:58,662 - INFO - Global story limit reached. Exiting UserStoryGeneration.
+2025-01-27 01:23:58,662 - INFO - __UserStoryGeneration Sequence Executed__
+
+2025-01-27 01:23:58,663 - INFO - __Matter2Formatted Sequence Initiated__
+2025-01-27 01:23:58,664 - WARNING - Filename VAR_OTT_variations.json does not match the expected pattern.
+2025-01-27 01:23:58,664 - INFO - Processing file: LLM_Processed_Files/VAR_OTT_variations.json with domain: Unknown Domain
+2025-01-27 01:23:58,664 - ERROR - Error reading JSON file LLM_Processed_Files/VAR_OTT_variations.json: Expecting value: line 1 column 1 (char 0)
+2025-01-27 01:23:58,664 - ERROR - Error processing LLM_Processed_Files/VAR_OTT_variations.json: Expecting value: line 1 column 1 (char 0)
+2025-01-27 01:23:58,664 - INFO - Processing file: LLM_Processed_Files/LLM_org_healthcare_appdata.json with domain: healthcare
+2025-01-27 01:23:58,666 - INFO - Data successfully saved to Formatted_Schema_Files/Merged_LLM_org_healthcare_appdata.json
+2025-01-27 01:23:58,666 - INFO - Processing file: LLM_Processed_Files/LLM_org_bfsi_appdata.json with domain: bfsi
+2025-01-27 01:23:58,668 - INFO - Data successfully saved to Formatted_Schema_Files/Merged_LLM_org_bfsi_appdata.json
+2025-01-27 01:23:58,668 - INFO - __Matter2Formatted Sequence Executed__
+
+2025-01-27 01:23:58,668 - INFO - __MongoDataUploader Sequence Initiated__
+2025-01-27 01:23:58,671 - INFO - Successfully connected to MongoDB.
+2025-01-27 01:23:58,672 - INFO - Successfully read JSON data from Formatted_Schema_Files/Merged_LLM_org_healthcare_appdata.json
+2025-01-27 01:24:28,928 - ERROR - Failed to save data to MongoDB: 127.0.0.1:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 679692d622e40f6cc823643f, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-01-27 01:24:28,929 - INFO - Data from Merged_LLM_org_healthcare_appdata.json uploaded to MongoDB.
+2025-01-27 01:24:28,930 - INFO - Successfully read JSON data from Formatted_Schema_Files/Merged_LLM_org_bfsi_appdata.json
+2025-01-27 01:24:59,207 - ERROR - Failed to save data to MongoDB: 127.0.0.1:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 679692d622e40f6cc823643f, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-01-27 01:24:59,209 - INFO - Data from Merged_LLM_org_bfsi_appdata.json uploaded to MongoDB.
+2025-01-27 01:24:59,209 - INFO - __MongoDataUploader Sequence Executed
+
+2025-01-27 01:24:59,209 - INFO - __Neo4jDataUploader Sequence Initiated__
+2025-01-27 01:24:59,227 - INFO - Successfully connected to Neo4j!
+2025-01-27 01:24:59,771 - INFO - Data processing completed successfully for Merged_LLM_org_healthcare_appdata.json.
+2025-01-27 01:24:59,773 - ERROR - Error during Neo4jDataUploader: 'subdomain name'
+2025-01-27 01:31:47,865 - INFO - Global state file not found. Initialized with default values.
+2025-01-27 01:31:47,979 - INFO - __AppDataProcessor Sequence Initiated__
+2025-01-27 01:31:47,981 - INFO - No changes detected for file: RawAppData/bfsi_appdata.json
+2025-01-27 01:31:47,981 - INFO - Skipping unchanged file: RawAppData/bfsi_appdata.json
+2025-01-27 01:31:47,981 - INFO - No changes detected for file: RawAppData/healthcare_appdata.json
+2025-01-27 01:31:47,981 - INFO - Skipping unchanged file: RawAppData/healthcare_appdata.json
+2025-01-27 01:31:47,981 - INFO - __AppDataProcessor Sequence Executed__
+
+2025-01-27 01:31:47,982 - INFO - __UserStoryGeneration Sequence Initiated__
+2025-01-27 01:31:47,982 - INFO - Cleaned VAR_OTT_variations.json
+2025-01-27 01:31:47,982 - INFO - Cleaned LLM_org_healthcare_appdata.json
+2025-01-27 01:31:47,982 - INFO - Cleaned LLM_org_bfsi_appdata.json
+2025-01-27 01:31:47,983 - INFO - No remaining paths for org_healthcare_appdata.json. Generated new paths: [['Telemedicine', 'mobile', 'frontend', 'FR']]
+2025-01-27 01:31:51,182 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-27 01:31:52,815 - INFO - Generation Successful: healthcare -> Telemedicine -> mobile -> frontend -> FR
+2025-01-27 01:31:52,815 - INFO - All paths for org_healthcare_appdata.json have been processed successfully!
+2025-01-27 01:31:52,815 - INFO - Data successfully written to LLM_Processed_Files/LLM_org_healthcare_appdata.json
+2025-01-27 01:31:52,816 - INFO - No remaining paths for org_bfsi_appdata.json. Generated new paths: [['Retail Banking', 'mobile', 'frontend', 'NFR'], ['Retail Banking', 'mobile', 'frontend', 'FR']]
+2025-01-27 01:31:53,333 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-27 01:31:54,901 - INFO - Generation Successful: bfsi -> Retail Banking -> mobile -> frontend -> FR
+2025-01-27 01:31:54,903 - INFO - Unprocessed paths remain for org_bfsi_appdata.json: [['Retail Banking', 'mobile', 'frontend', 'NFR']]
+2025-01-27 01:31:54,903 - INFO - Data successfully written to LLM_Processed_Files/LLM_org_bfsi_appdata.json
+2025-01-27 01:31:54,903 - INFO - Global story limit reached. Exiting UserStoryGeneration.
+2025-01-27 01:31:54,903 - INFO - __UserStoryGeneration Sequence Executed__
+
+2025-01-27 01:31:54,904 - INFO - __Matter2Formatted Sequence Initiated__
+2025-01-27 01:31:54,904 - WARNING - Filename VAR_OTT_variations.json does not match the expected pattern.
+2025-01-27 01:31:54,904 - INFO - Processing file: LLM_Processed_Files/VAR_OTT_variations.json with domain: Unknown Domain
+2025-01-27 01:31:54,904 - ERROR - Error reading JSON file LLM_Processed_Files/VAR_OTT_variations.json: Expecting value: line 1 column 1 (char 0)
+2025-01-27 01:31:54,904 - ERROR - Error processing LLM_Processed_Files/VAR_OTT_variations.json: Expecting value: line 1 column 1 (char 0)
+2025-01-27 01:31:54,904 - INFO - Processing file: LLM_Processed_Files/LLM_org_healthcare_appdata.json with domain: healthcare
+2025-01-27 01:31:54,907 - INFO - Data successfully saved to Formatted_Schema_Files/Merged_LLM_org_healthcare_appdata.json
+2025-01-27 01:31:54,907 - INFO - Processing file: LLM_Processed_Files/LLM_org_bfsi_appdata.json with domain: bfsi
+2025-01-27 01:31:54,908 - INFO - Data successfully saved to Formatted_Schema_Files/Merged_LLM_org_bfsi_appdata.json
+2025-01-27 01:31:54,908 - INFO - __Matter2Formatted Sequence Executed__
+
+2025-01-27 01:31:54,908 - INFO - __MongoDataUploader Sequence Initiated__
+2025-01-27 01:31:54,911 - INFO - Successfully connected to MongoDB.
+2025-01-27 01:31:54,912 - INFO - Successfully read JSON data from Formatted_Schema_Files/Merged_LLM_org_healthcare_appdata.json
+2025-01-27 01:32:25,197 - ERROR - Failed to save data to MongoDB: 127.0.0.1:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 679694b2399ec274d6c84103, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-01-27 01:32:25,198 - INFO - Data from Merged_LLM_org_healthcare_appdata.json uploaded to MongoDB.
+2025-01-27 01:32:25,198 - INFO - Successfully read JSON data from Formatted_Schema_Files/Merged_LLM_org_bfsi_appdata.json
+2025-01-27 01:32:55,471 - ERROR - Failed to save data to MongoDB: 127.0.0.1:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 679694b2399ec274d6c84103, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [Errno 61] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-01-27 01:32:55,472 - INFO - Data from Merged_LLM_org_bfsi_appdata.json uploaded to MongoDB.
+2025-01-27 01:32:55,472 - INFO - __MongoDataUploader Sequence Executed
+
+2025-01-27 01:32:55,472 - INFO - __Neo4jDataUploader Sequence Initiated__
+2025-01-27 01:32:55,484 - INFO - Successfully connected to Neo4j!
+2025-01-27 01:32:56,315 - INFO - Data processing completed successfully for Merged_LLM_org_healthcare_appdata.json.
+2025-01-27 01:32:56,684 - INFO - Data processing completed successfully for Merged_LLM_org_bfsi_appdata.json.
+2025-01-27 01:32:56,684 - INFO - __Neo4jDataUploader Sequence Executed__
+

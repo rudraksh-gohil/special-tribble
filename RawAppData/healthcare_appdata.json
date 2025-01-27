@@ -1,0 +1,1745 @@
+ {
+  "Domain": "Healthcare",
+  "Subdomains": [
+    {
+      "Subdomain Name": "Telemedicine",
+      "Regions": [
+        {
+          "Region": "USA",
+          "Apps": [
+            {
+              "name": "Teladoc Health",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Appointment booking", "Video consultation", "Health record tracking", "Doctor search", "Payment gateway"],
+                  "backend": ["Data sync", "Appointment scheduling", "User authentication", "Payment processing"],
+                  "middleware": ["Video streaming", "Push notifications", "Analytics dashboard"]
+                },
+                "web": {
+                  "frontend": ["Doctor search", "Online appointment scheduling", "Health record management", "Consultation history"],
+                  "backend": ["Data encryption", "Account sync", "Payment gateway", "Real-time updates"],
+                  "middleware": ["Real-time notifications", "Push notifications", "Live chat"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Smooth UI", "Responsive design"],
+                  "backend": ["Scalable system", "HIPAA-compliant data", "Low latency"],
+                  "middleware": ["Low latency", "Quick processing"]
+                },
+                "web": {
+                  "frontend": ["Web app load < 3s", "Cross-browser compatibility", "SEO optimization"],
+                  "backend": ["System uptime > 99.99%", "Error handling", "Data security"],
+                  "middleware": ["Reliable notifications", "Real-time sync"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Appointment booking works", "Video consultation starts", "Health records sync correctly"],
+                "web": ["Doctor search functional", "Appointments bookable", "Payments processed successfully"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes on startup", "Video call poor quality", "Push notifications delayed"],
+                "web": ["Page load slow", "Broken links", "Session timeout"]
+              }
+            },
+            {
+              "name": "HealthTap",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Appointment booking", "Consultation request", "Health record tracking", "Doctor profiles"],
+                  "backend": ["Real-time data sync", "Scheduling integration", "Payment gateway"],
+                  "middleware": ["Push notifications", "Chatbot integration", "Voice recognition"]
+                },
+                "web": {
+                  "frontend": ["Doctor search", "Online appointment management", "Consultation history", "Prescription management"],
+                  "backend": ["Data encryption", "Efficient search", "Payment gateway"],
+                  "middleware": ["Real-time chat", "Third-party API integration"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Fast transitions", "User-friendly UI"],
+                  "backend": ["Low latency", "Reliable sync", "Scalable system"],
+                  "middleware": ["Real-time updates", "Push notifications"]
+                },
+                "web": {
+                  "frontend": ["Web app load < 3s", "Responsive UI", "SEO optimized"],
+                  "backend": ["Data security", "Fast sync", "Error handling"],
+                  "middleware": ["Reliable notifications", "Real-time sync"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Appointment booking successful", "Consultation request works", "Health records sync"],
+                "web": ["Appointments bookable", "Health record tracking functional", "Prescription management available"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes unexpectedly", "Video call lag", "Sync issues with health records"],
+                "web": ["Slow page loading", "Broken links", "Error when editing profile"]
+              }
+            },
+            {
+              "name": "Talkspace",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Therapy sessions", "Mood tracking", "Message exchange", "Appointment scheduling"],
+                  "backend": ["Real-time messaging", "User authentication", "Payment gateway"],
+                  "middleware": ["Push notifications", "Live chat", "Secure chat"]
+                },
+                "web": {
+                  "frontend": ["Therapist search", "Appointment scheduling", "Mood tracking", "Consultation history"],
+                  "backend": ["Data encryption", "Payment gateway", "Real-time updates"],
+                  "middleware": ["Live chat", "Secure messaging", "Real-time notifications"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 3s", "Seamless messaging", "Low latency"],
+                  "backend": ["Secure data storage", "Scalable system", "Fast sync"],
+                  "middleware": ["Real-time messaging", "Low latency"]
+                },
+                "web": {
+                  "frontend": ["Page load < 4s", "Cross-browser compatibility", "Fast navigation"],
+                  "backend": ["Data security", "Error handling", "Payment processing"],
+                  "middleware": ["Live chat", "Real-time sync"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Therapy sessions work", "Message exchange functional", "User authentication works"],
+                "web": ["Therapist search functional", "Appointments bookable", "Mood tracking available"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Message not delivered", "Slow sync"],
+                "web": ["Session timeout", "Slow page load", "Broken links"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "Canada",
+          "Apps": [
+            {
+              "name": "Akira by TELUS Health",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Doctor consultation", "Health records", "Medication tracking", "Video chat"],
+                  "backend": ["Appointment booking", "User verification", "Payment processing"],
+                  "middleware": ["Secure video streaming", "Push notifications", "Real-time sync"]
+                },
+                "web": {
+                  "frontend": ["Doctor search", "Consultation history", "Prescription management"],
+                  "backend": ["Payment gateway", "Data encryption", "API integration"],
+                  "middleware": ["Push notifications", "Real-time chat"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Smooth UI", "Responsive design"],
+                  "backend": ["Low latency", "High availability", "Fast sync"],
+                  "middleware": ["Quick video call", "Reliable notifications"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Cross-browser compatibility", "Fast navigation"],
+                  "backend": ["99.99% uptime", "Data security", "Error handling"],
+                  "middleware": ["Real-time updates", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Video consultation starts", "Health records visible", "Appointment scheduling functional"],
+                "web": ["Doctor search works", "Prescription management functional", "Consultation history viewable"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Video call not working", "Slow sync"],
+                "web": ["Page load slow", "Session timeout", "Broken links"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "UK",
+          "Apps": [
+            {
+              "name": "Babylon Health",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Consultation booking", "Health monitoring", "Prescription management"],
+                  "backend": ["Real-time data sync", "User authentication", "Payment gateway"],
+                  "middleware": ["Push notifications", "Real-time chat", "File sharing"]
+                },
+                "web": {
+                  "frontend": ["Doctor search", "Online consultation", "Health records"],
+                  "backend": ["Payment gateway", "Data encryption", "Real-time sync"],
+                  "middleware": ["Live chat", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Responsive design", "Smooth transitions"],
+                  "backend": ["Scalable system", "Low latency", "Data security"],
+                  "middleware": ["Low latency video calls", "Fast notifications"]
+                },
+                "web": {
+                  "frontend": ["Web app load < 3s", "Mobile responsive", "SEO optimized"],
+                  "backend": ["99.99% uptime", "Fast sync", "Error handling"],
+                  "middleware": ["Real-time sync", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Appointments bookable", "Prescription management working", "Health records visible"],
+                "web": ["Doctor search functional", "Consultation booking available", "Health records visible"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow syncing", "Push notifications missing"],
+                "web": ["Broken links", "Slow page load", "Session timeout"]
+              }
+            },
+            {
+              "name": "Push Doctor",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Video consultation", "Health record access", "Doctor search"],
+                  "backend": ["Appointment scheduling", "User authentication", "Payment gateway"],
+                  "middleware": ["Real-time video streaming", "Push notifications"]
+                },
+                "web": {
+                  "frontend": ["Doctor search", "Consultation history", "Health records"],
+                  "backend": ["Data encryption", "Payment processing", "Real-time sync"],
+                  "middleware": ["Real-time updates", "Push notifications"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Responsive UI", "Fast sync"],
+                  "backend": ["Fast data sync", "Low latency", "Data security"],
+                  "middleware": ["Quick video streaming", "Push notifications"]
+                },
+                "web": {
+                  "frontend": ["Web app load < 3s", "Mobile responsive", "SEO optimization"],
+                  "backend": ["99.99% uptime", "Real-time updates", "Error handling"],
+                  "middleware": ["Fast notifications", "Real-time sync"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Video consultation works", "Doctor search functional", "Health record access available"],
+                "web": ["Consultation history accessible", "Health records visible", "Doctor search functional"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Video lag", "Push notifications delayed"],
+                "web": ["Slow load", "Broken links", "Error saving data"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "India",
+          "Apps": [
+            {
+              "name": "Practo",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Doctor search", "Health records", "Appointment booking", "Payment gateway"],
+                  "backend": ["Real-time data sync", "User authentication", "Payment processing"],
+                  "middleware": ["Video streaming", "Push notifications", "Live chat"]
+                },
+                "web": {
+                  "frontend": ["Doctor search", "Consultation booking", "Prescription management"],
+                  "backend": ["Data encryption", "Payment gateway", "Appointment scheduling"],
+                  "middleware": ["Real-time chat", "Push notifications"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Fast sync", "User-friendly design"],
+                  "backend": ["Low latency", "High availability", "Data security"],
+                  "middleware": ["Real-time updates", "Push notifications"]
+                },
+                "web": {
+                  "frontend": ["Web app load < 3s", "Responsive design", "SEO optimized"],
+                  "backend": ["99.99% uptime", "Error handling", "Scalable"],
+                  "middleware": ["Real-time sync", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Doctor search works", "Appointment booking functional", "Prescription management available"],
+                "web": ["Doctor search functional", "Consultation booking functional", "Health records visible"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Video lag", "Sync issues"],
+                "web": ["Page load slow", "Session timeout", "Broken links"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Subdomain Name": "E-Prescriptions",
+      "Regions": [
+        {
+          "Region": "USA",
+          "Apps": [
+            {
+              "name": "Teladoc Health",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["E-prescription request", "Doctor consultation", "Prescription tracking", "Medication reminders"],
+                  "backend": ["Prescription verification", "Data sync", "Patient authentication", "Notification system"],
+                  "middleware": ["Real-time updates", "Secure data transmission", "Push notifications"]
+                },
+                "web": {
+                  "frontend": ["Prescription management", "E-prescription history", "Doctor consultation", "Medication details"],
+                  "backend": ["User authentication", "Data encryption", "Prescription tracking", "Real-time sync"],
+                  "middleware": ["Push notifications", "Live chat", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Responsive UI", "Fast navigation"],
+                  "backend": ["Low latency", "High availability", "Scalable"],
+                  "middleware": ["Real-time updates", "Push notifications"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Cross-browser compatibility", "SEO optimized"],
+                  "backend": ["99.99% uptime", "Data security", "Fast sync"],
+                  "middleware": ["Real-time sync", "Reliable notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["E-prescription request functional", "Prescription tracking working", "Doctor consultation successful"],
+                "web": ["Prescription management available", "Medication details accessible", "Real-time updates functional"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow sync", "Push notifications delayed"],
+                "web": ["Page load slow", "Broken links", "Session timeout"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "UK",
+          "Apps": [
+            {
+              "name": "NHS App",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["E-prescription request", "Prescription management", "Medication reminders", "Doctor consultation"],
+                  "backend": ["Prescription verification", "Data encryption", "User authentication", "Notification system"],
+                  "middleware": ["Real-time updates", "Secure data transmission", "Push notifications"]
+                },
+                "web": {
+                  "frontend": ["Prescription request", "Medication tracking", "Doctor consultation", "Prescription history"],
+                  "backend": ["Data sync", "User authentication", "Prescription tracking", "Real-time sync"],
+                  "middleware": ["Push notifications", "Live chat", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Seamless user experience", "Fast response time"],
+                  "backend": ["Scalable system", "Low latency", "Data security"],
+                  "middleware": ["Reliable real-time updates", "Low latency notifications"]
+                },
+                "web": {
+                  "frontend": ["Web app load < 3s", "Responsive design", "SEO optimized"],
+                  "backend": ["99.99% uptime", "High performance", "Secure data storage"],
+                  "middleware": ["Real-time sync", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["E-prescription request functional", "Prescription reminders operational", "Doctor consultation available"],
+                "web": ["Prescription history accessible", "Medication tracking works", "Real-time updates functional"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow load times", "Push notifications delayed"],
+                "web": ["Slow page load", "Broken links", "Error submitting prescription"]
+              }
+            },
+            {
+              "name": "Push Doctor",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["E-prescription request", "Doctor consultation", "Prescription tracking", "Medication reminders"],
+                  "backend": ["Prescription processing", "Data sync", "User authentication", "Payment gateway"],
+                  "middleware": ["Secure video streaming", "Push notifications", "Real-time data sync"]
+                },
+                "web": {
+                  "frontend": ["Prescription management", "E-prescription history", "Consultation details", "Medication information"],
+                  "backend": ["Data encryption", "Real-time sync", "User authentication"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Smooth UI", "Responsive design"],
+                  "backend": ["Low latency", "Scalable", "Reliable sync"],
+                  "middleware": ["Quick video calls", "Real-time updates"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Cross-browser compatibility", "SEO optimized"],
+                  "backend": ["99.99% uptime", "Error handling", "Data security"],
+                  "middleware": ["Push notifications", "Real-time sync"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Prescription request works", "Doctor consultation functional", "Medication reminders active"],
+                "web": ["Prescription history visible", "Consultation details accessible", "Medication information available"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Push notifications not sent", "Prescription sync failure"],
+                "web": ["Page load slow", "Error during prescription submission", "Broken links"]
+              }
+            },
+            {
+              "name": "Bupa",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["E-prescription request", "Consultation booking", "Prescription history", "Medication reminders"],
+                  "backend": ["Prescription tracking", "User authentication", "Payment gateway", "Real-time sync"],
+                  "middleware": ["Push notifications", "Video call integration", "Secure data transmission"]
+                },
+                "web": {
+                  "frontend": ["Doctor search", "Prescription management", "Consultation scheduling", "Medication tracking"],
+                  "backend": ["Data encryption", "Prescription syncing", "User authentication"],
+                  "middleware": ["Push notifications", "Live updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Smooth UI transitions", "Fast response times"],
+                  "backend": ["Low latency", "Data security", "Scalable"],
+                  "middleware": ["Real-time notifications", "Quick video streaming"]
+                },
+                "web": {
+                  "frontend": ["Web app load < 3s", "Mobile responsive", "SEO optimized"],
+                  "backend": ["99.99% uptime", "Error handling", "Real-time sync"],
+                  "middleware": ["Push notifications", "Real-time data sync"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Prescription request functional", "Consultation scheduling works", "Medication reminders active"],
+                "web": ["Doctor search functional", "Prescription management available", "Medication tracking visible"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync issues", "Push notifications delayed"],
+                "web": ["Broken links", "Slow page load", "Session timeout"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "Germany",
+          "Apps": [
+            {
+              "name": "TeleClinic",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["E-prescription request", "Doctor consultation", "Prescription tracking", "Medication reminders"],
+                  "backend": ["Prescription verification", "Data sync", "Payment processing", "User authentication"],
+                  "middleware": ["Real-time data sync", "Push notifications", "Secure video streaming"]
+                },
+                "web": {
+                  "frontend": ["Prescription management", "E-prescription history", "Consultation details", "Medication reminders"],
+                  "backend": ["Data encryption", "Real-time sync", "User authentication"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 3s", "Responsive design", "Smooth transitions"],
+                  "backend": ["Low latency", "Scalable", "Reliable data sync"],
+                  "middleware": ["Quick video calls", "Real-time notifications"]
+                },
+                "web": {
+                  "frontend": ["Web app load < 3s", "Cross-browser compatibility", "SEO optimization"],
+                  "backend": ["99.99% uptime", "Fast sync", "Data security"],
+                  "middleware": ["Real-time sync", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["E-prescription request working", "Prescription tracking available", "Doctor consultation functional"],
+                "web": ["Prescription history accessible", "Consultation details viewable", "Medication reminders functional"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Video call not working", "Push notifications delayed"],
+                "web": ["Slow page load", "Broken links", "Prescription submission error"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "UAE",
+          "Apps": [
+            {
+              "name": "Vezeeta",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["E-prescription request", "Doctor consultation", "Medication reminders", "Prescription tracking"],
+                  "backend": ["Prescription verification", "Real-time sync", "User authentication"],
+                  "middleware": ["Push notifications", "Video consultation integration"]
+                },
+                "web": {
+                  "frontend": ["Doctor search", "Prescription management", "Consultation booking", "Medication tracking"],
+                  "backend": ["Data encryption", "Real-time sync", "Prescription verification"],
+                  "middleware": ["Push notifications", "Live chat"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Responsive design", "Smooth UI"],
+                  "backend": ["Low latency", "Scalable", "Data security"],
+                  "middleware": ["Real-time sync", "Quick video streaming"]
+                },
+                "web": {
+                  "frontend": ["Web app load < 3s", "Cross-browser compatibility", "SEO optimized"],
+                  "backend": ["99.99% uptime", "Fast data sync", "Reliable error handling"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Prescription request functional", "Medication reminders operational", "Doctor consultation available"],
+                "web": ["Doctor search functional", "Prescription management works", "Medication tracking accessible"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync issues", "Delayed notifications"],
+                "web": ["Broken links", "Slow page load", "Prescription submission failed"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Subdomain Name": "Health Records Management",
+      "Regions": [
+        {
+          "Region": "USA",
+          "Apps": [
+            {
+              "name": "MyChart",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Patient record management", "Appointment scheduling", "Medication tracking", "Lab results view"],
+                  "backend": ["Data storage", "Patient authentication", "Real-time sync", "Data encryption"],
+                  "middleware": ["Push notifications", "Data updates", "Notification service"]
+                },
+                "web": {
+                  "frontend": ["Patient profile", "Appointment history", "Prescription details", "Medical records view"],
+                  "backend": ["Data sync", "User authentication", "Real-time data updates"],
+                  "middleware": ["Notification system", "Push alerts"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 3s", "Responsive design", "Smooth navigation"],
+                  "backend": ["Scalable", "Low latency", "Secure data management"],
+                  "middleware": ["Real-time data updates", "Push notification delivery"]
+                },
+                "web": {
+                  "frontend": ["Web page load < 3s", "Cross-browser compatibility", "Fast access to medical records"],
+                  "backend": ["High uptime", "Low latency", "Data encryption"],
+                  "middleware": ["Push notifications", "Real-time sync"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Medical records accessible", "Appointment scheduling functional", "Prescription tracking available"],
+                "web": ["Profile and medical record access functional", "Prescription details visible", "Real-time updates working"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow sync", "Push notifications delayed"],
+                "web": ["Slow page load", "Broken links", "Real-time sync failure"]
+              }
+            },
+            {
+              "name": "Babylon Health",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Health records view", "Consultation scheduling", "Prescription tracking", "Appointment history"],
+                  "backend": ["Patient data storage", "Real-time sync", "Data encryption", "Appointment data sync"],
+                  "middleware": ["Push notifications", "Secure video consultation"]
+                },
+                "web": {
+                  "frontend": ["Health records management", "Consultation details", "Medical history", "Appointment scheduling"],
+                  "backend": ["Data encryption", "Syncing patient data", "Real-time updates"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Responsive layout", "Fast navigation"],
+                  "backend": ["Low latency", "Scalable system", "Fast sync"],
+                  "middleware": ["Real-time updates", "Reliable notifications"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Cross-browser compatibility", "SEO optimization"],
+                  "backend": ["99.99% uptime", "High data security", "Fast data sync"],
+                  "middleware": ["Push notifications", "Real-time sync"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Health records visible", "Appointments functional", "Prescription tracking available"],
+                "web": ["Medical history viewable", "Consultation details accessible", "Appointment management working"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow sync", "Video consultation issues"],
+                "web": ["Page load slow", "Broken links", "Prescription errors"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "Canada",
+          "Apps": [
+            {
+              "name": "PocketHealth",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Access medical records", "Appointment management", "Lab results tracking", "Prescription details"],
+                  "backend": ["Data storage", "Secure login", "Real-time sync", "Patient authentication"],
+                  "middleware": ["Push notifications", "Appointment reminders"]
+                },
+                "web": {
+                  "frontend": ["Medical history", "Appointment scheduling", "Prescription management", "Lab result updates"],
+                  "backend": ["Data encryption", "Real-time sync", "User authentication"],
+                  "middleware": ["Push notifications", "Real-time data updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Smooth UI", "Fast access to medical data"],
+                  "backend": ["Scalable", "Low latency", "High security"],
+                  "middleware": ["Reliable push notifications", "Real-time data updates"]
+                },
+                "web": {
+                  "frontend": ["Web app load < 3s", "Responsive layout", "Fast access to patient records"],
+                  "backend": ["99.99% uptime", "Quick data sync", "Secure authentication"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Medical record viewable", "Appointment history functional", "Prescription management available"],
+                "web": ["Medical history accessible", "Real-time updates functional", "Prescription details visible"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Push notification delays", "Slow record loading"],
+                "web": ["Slow page load", "Broken links", "Sync errors"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "UK",
+          "Apps": [
+            {
+              "name": "Babylon Health",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Health records view", "Consultation scheduling", "Prescription tracking", "Appointment history"],
+                  "backend": ["Patient data storage", "Real-time sync", "Data encryption", "Appointment data sync"],
+                  "middleware": ["Push notifications", "Secure video consultation"]
+                },
+                "web": {
+                  "frontend": ["Health records management", "Consultation details", "Medical history", "Appointment scheduling"],
+                  "backend": ["Data encryption", "Syncing patient data", "Real-time updates"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Responsive layout", "Fast navigation"],
+                  "backend": ["Low latency", "Scalable system", "Fast sync"],
+                  "middleware": ["Real-time updates", "Reliable notifications"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Cross-browser compatibility", "SEO optimization"],
+                  "backend": ["99.99% uptime", "High data security", "Fast data sync"],
+                  "middleware": ["Push notifications", "Real-time sync"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Health records visible", "Appointments functional", "Prescription tracking available"],
+                "web": ["Medical history viewable", "Consultation details accessible", "Appointment management working"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow sync", "Video consultation issues"],
+                "web": ["Page load slow", "Broken links", "Prescription errors"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "Singapore",
+          "Apps": [
+            {
+              "name": "HealthHub",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Health record management", "Appointment scheduling", "Medication tracking", "Lab results access"],
+                  "backend": ["Data encryption", "User authentication", "Syncing records", "Patient data storage"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                },
+                "web": {
+                  "frontend": ["Health records access", "Prescription tracking", "Appointment history", "Lab results management"],
+                  "backend": ["Data encryption", "Real-time sync", "Patient authentication"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 3s", "Smooth navigation", "Fast access to records"],
+                  "backend": ["Low latency", "High availability", "Scalable system"],
+                  "middleware": ["Real-time updates", "Push notifications"]
+                },
+                "web": {
+                  "frontend": ["Web app load < 3s", "Responsive design", "SEO optimized"],
+                  "backend": ["99.99% uptime", "Scalable", "Data security"],
+                  "middleware": ["Real-time sync", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Records accessible", "Appointments functional", "Medication tracking available"],
+                "web": ["Prescription tracking available", "Medical records viewable", "Lab results access functional"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow sync", "Delayed notifications"],
+                "web": ["Slow page load", "Broken links", "Sync issues"]
+              }
+            },
+            {
+              "name": "MyHealth360",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["View health records", "Track medication", "Appointment scheduling", "Consultation details"],
+                  "backend": ["Data encryption", "Patient data storage", "Real-time sync", "Notification system"],
+                  "middleware": ["Push notifications", "Secure video consultations"]
+                },
+                "web": {
+                  "frontend": ["Medical records", "Prescription details", "Appointment history", "Lab results view"],
+                  "backend": ["Data sync", "Patient authentication", "Real-time updates"],
+                  "middleware": ["Push notifications", "Real-time sync"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 3s", "Responsive design", "Fast navigation"],
+                  "backend": ["Low latency", "Scalable", "Secure system"],
+                  "middleware": ["Real-time sync", "Push notifications"]
+                },
+                "web": {
+                  "frontend": ["Web app load < 3s", "Cross-browser compatibility", "Fast record retrieval"],
+                  "backend": ["99.99% uptime", "Fast data sync", "Secure"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Health records accessible", "Appointments functional", "Prescription tracking available"],
+                "web": ["Medical history visible", "Prescription details working", "Lab results viewable"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync failures", "Delayed notifications"],
+                "web": ["Slow page load", "Broken links", "Sync errors"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Subdomain Name": "Wellness and Preventive Care",
+      "Regions": [
+        {
+          "Region": "Canada",
+          "Apps": [
+            {
+              "name": "WellnessLiving",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Track wellness goals", "Monitor fitness progress", "Manage wellness appointments", "Access health resources"],
+                  "backend": ["User data storage", "Goal tracking", "Appointment scheduling", "Integration with fitness devices"],
+                  "middleware": ["Notifications", "Real-time data syncing", "Data analysis"]
+                },
+                "web": {
+                  "frontend": ["User wellness dashboard", "Progress tracking", "Fitness class booking", "Health resource library"],
+                  "backend": ["Goal tracking", "Data synchronization", "User authentication"],
+                  "middleware": ["Push notifications", "Real-time syncing"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Responsive design", "User-friendly interface"],
+                  "backend": ["Scalable system", "Low latency", "Data encryption"],
+                  "middleware": ["Push notifications", "Fast syncing"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Responsive design", "Quick access to wellness content"],
+                  "backend": ["99.99% uptime", "Fast data syncing", "Secure user management"],
+                  "middleware": ["Real-time sync", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Wellness goals tracking functional", "Fitness progress viewable", "Appointments and notifications working"],
+                "web": ["User dashboard operational", "Goal tracking working", "Class booking functional"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync errors", "Delayed notifications"],
+                "web": ["Slow page load", "Broken links", "Syncing failures"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "India",
+          "Apps": [
+            {
+              "name": "HealthifyMe",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Track fitness goals", "Monitor diet", "Provide health tips", "Schedule workouts"],
+                  "backend": ["Data storage", "Personalized health suggestions", "Integration with wearables"],
+                  "middleware": ["Push notifications", "Real-time sync", "Data syncing with devices"]
+                },
+                "web": {
+                  "frontend": ["Health tracking dashboard", "Workout history", "Diet plan tracking", "Health articles"],
+                  "backend": ["User profile storage", "Goal tracking", "Diet recommendations"],
+                  "middleware": ["Real-time updates", "Notifications"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Smooth UI", "Quick data access"],
+                  "backend": ["Scalable", "Low latency", "Secure data encryption"],
+                  "middleware": ["Real-time data sync", "Notification delivery"]
+                },
+                "web": {
+                  "frontend": ["Web load < 3s", "Responsive design", "Quick access to health data"],
+                  "backend": ["Fast data sync", "Secure", "Data privacy"],
+                  "middleware": ["Real-time updates", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Fitness tracking working", "Health tips accessible", "Workout scheduling available"],
+                "web": ["Health data viewable", "Diet plan tracking functional", "Workout history available"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow sync", "Push notifications delay"],
+                "web": ["Slow page load", "Sync failures", "Broken links"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "South Korea",
+          "Apps": [
+            {
+              "name": "Samsung Health",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Track fitness activities", "Monitor health data", "Manage health goals", "Log daily meals"],
+                  "backend": ["Data syncing with devices", "User profile management", "Health recommendations"],
+                  "middleware": ["Push notifications", "Real-time sync", "Data analysis"]
+                },
+                "web": {
+                  "frontend": ["Health dashboard", "Fitness tracking history", "Meal logging", "Progress visualization"],
+                  "backend": ["User data storage", "Health data syncing", "Personalized health insights"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Responsive design", "Quick access to health data"],
+                  "backend": ["Scalable", "Low latency", "Encrypted data storage"],
+                  "middleware": ["Real-time sync", "Push notifications"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Responsive UI", "Fast data access"],
+                  "backend": ["High uptime", "Fast data syncing", "Secure data storage"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Activity tracking functional", "Health data accessible", "Goals tracking available"],
+                "web": ["Fitness and health tracking available", "Meal logs functional", "Progress visualization working"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync errors", "Push notification delays"],
+                "web": ["Slow page load", "Syncing issues", "Real-time data update failure"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "Japan",
+          "Apps": [
+            {
+              "name": "Otsuka Wellness",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Track wellness progress", "Monitor mental health", "Manage physical wellness goals", "Access wellness resources"],
+                  "backend": ["User data storage", "Goal tracking", "Health recommendations"],
+                  "middleware": ["Push notifications", "Real-time data syncing"]
+                },
+                "web": {
+                  "frontend": ["Wellness dashboard", "Progress tracking", "Mental health resources", "Goal tracking"],
+                  "backend": ["Data sync", "User authentication", "Personalized health insights"],
+                  "middleware": ["Push notifications", "Real-time sync"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Smooth UI", "Fast access to wellness data"],
+                  "backend": ["Scalable", "Low latency", "Data security"],
+                  "middleware": ["Real-time sync", "Push notifications"]
+                },
+                "web": {
+                  "frontend": ["Web load < 3s", "Responsive design", "Fast access to wellness resources"],
+                  "backend": ["99.99% uptime", "Quick data sync", "Data privacy"],
+                  "middleware": ["Real-time updates", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Wellness progress tracking functional", "Mental health resources accessible", "Goal setting working"],
+                "web": ["User wellness dashboard available", "Progress tracking functional", "Health insights accessible"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync errors", "Push notification delay"],
+                "web": ["Slow page load", "Broken links", "Data sync failures"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "South Africa",
+          "Apps": [
+            {
+              "name": "Discovery Health",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Track wellness progress", "Manage fitness goals", "Access health resources", "Monitor mental health"],
+                  "backend": ["User data storage", "Goal tracking", "Health recommendations"],
+                  "middleware": ["Push notifications", "Real-time data syncing"]
+                },
+                "web": {
+                  "frontend": ["Health tracking dashboard", "Progress monitoring", "Mental health resources", "Goal tracking"],
+                  "backend": ["Data syncing", "User authentication", "Health insights"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 3s", "Responsive design", "User-friendly interface"],
+                  "backend": ["Scalable system", "Low latency", "Data security"],
+                  "middleware": ["Push notifications", "Real-time syncing"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Responsive design", "Quick access to health resources"],
+                  "backend": ["Fast data sync", "High availability", "Secure"],
+                  "middleware": ["Real-time syncing", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Wellness tracking functional", "Health resources accessible", "Goal setting working"],
+                "web": ["User health dashboard available", "Progress monitoring functional", "Goal tracking accessible"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync issues", "Delayed notifications"],
+                "web": ["Slow page load", "Broken links", "Data syncing failures"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "Sweden",
+          "Apps": [
+            {
+              "name": "Lifesum",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Track wellness goals", "Monitor nutrition", "Set fitness goals", "Log meals and activities"],
+                  "backend": ["Data syncing with wearables", "User profile management", "Health tracking"],
+                  "middleware": ["Push notifications", "Real-time data sync"]
+                },
+                "web": {
+                  "frontend": ["Wellness dashboard", "Goal tracking", "Meal tracking", "Exercise history"],
+                  "backend": ["User data storage", "Goal setting", "Meal recommendations"],
+                  "middleware": ["Push notifications", "Real-time syncing"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Quick navigation", "Smooth UI"],
+                  "backend": ["Low latency", "Scalable", "Data encryption"],
+                  "middleware": ["Real-time data sync", "Push notifications"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Responsive design", "Quick access to wellness data"],
+                  "backend": ["High uptime", "Fast data syncing", "Secure system"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Goal tracking functional", "Nutrition logging available", "Fitness tracking working"],
+                "web": ["User dashboard available", "Goal setting functional", "Meal tracking operational"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow sync", "Push notification failure"],
+                "web": ["Slow page load", "Broken links", "Sync issues"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "Switzerland",
+          "Apps": [
+            {
+              "name": "Swica Benevita",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Track wellness progress", "Monitor health goals", "Access preventive health tips", "Manage fitness routines"],
+                  "backend": ["User data syncing", "Goal setting", "Personalized health insights"],
+                  "middleware": ["Push notifications", "Real-time sync"]
+                },
+                "web": {
+                  "frontend": ["Wellness dashboard", "Goal tracking", "Health tips", "Routine management"],
+                  "backend": ["Data syncing", "User authentication", "Health recommendations"],
+                  "middleware": ["Push notifications", "Real-time sync"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 3s", "Responsive design", "Quick navigation"],
+                  "backend": ["Low latency", "Secure data management", "Scalable system"],
+                  "middleware": ["Push notifications", "Real-time sync"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Fast data access", "Responsive UI"],
+                  "backend": ["99.99% uptime", "Fast syncing", "Secure data handling"],
+                  "middleware": ["Real-time updates", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Wellness progress tracking available", "Health tips accessible", "Goal setting functional"],
+                "web": ["Dashboard operational", "Goal tracking working", "Health tips accessible"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync errors", "Delayed notifications"],
+                "web": ["Slow load times", "Broken links", "Sync issues"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Subdomain Name": "Appointment Management",
+      "Regions": [
+        {
+          "Region": "Canada",
+          "Apps": [
+            {
+              "name": "Medimap",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Search doctors", "Book appointments", "View appointment history", "Receive appointment reminders"],
+                  "backend": ["Doctor scheduling", "User profile management", "Appointment reminders"],
+                  "middleware": ["Push notifications", "Real-time syncing"]
+                },
+                "web": {
+                  "frontend": ["Search doctors", "Book appointments", "View schedule", "Access medical records"],
+                  "backend": ["Doctor availability", "User authentication", "Data storage"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 3s", "Responsive design", "Easy navigation"],
+                  "backend": ["Scalable system", "Secure data storage", "Low latency"],
+                  "middleware": ["Push notifications", "Fast syncing"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Responsive UI", "Quick access to doctor info"],
+                  "backend": ["99.99% uptime", "Secure authentication", "Real-time syncing"],
+                  "middleware": ["Real-time updates", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Booking appointments functional", "Appointment reminders operational", "Doctor search functional"],
+                "web": ["Appointment booking system working", "Schedule viewable", "Medical records accessible"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync errors", "Delayed notifications"],
+                "web": ["Slow page load", "Broken links", "Syncing failures"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "Australia",
+          "Apps": [
+            {
+              "name": "Healthengine",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Search healthcare providers", "Book appointments", "View appointment history", "Manage booking reminders"],
+                  "backend": ["Healthcare provider scheduling", "User management", "Appointment notifications"],
+                  "middleware": ["Push notifications", "Real-time sync"]
+                },
+                "web": {
+                  "frontend": ["Book appointments", "Search healthcare providers", "View medical records", "Access schedule"],
+                  "backend": ["Appointment scheduling", "User authentication", "Data management"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 3s", "Smooth navigation", "Responsive UI"],
+                  "backend": ["Scalable system", "Secure data storage", "Low latency"],
+                  "middleware": ["Push notifications", "Real-time syncing"]
+                },
+                "web": {
+                  "frontend": ["Page load < 2s", "Quick access to healthcare providers", "Responsive design"],
+                  "backend": ["High uptime", "Fast syncing", "Secure data management"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Appointment booking working", "Notification system operational", "Search for healthcare providers functional"],
+                "web": ["Appointment management functional", "Healthcare provider search working", "Medical record access functional"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow sync", "Notification failures"],
+                "web": ["Slow load times", "Broken links", "Sync errors"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "Germany",
+          "Apps": [
+            {
+              "name": "Doctolib",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Search doctors", "Schedule appointments", "View upcoming visits", "Receive appointment reminders"],
+                  "backend": ["Doctor availability management", "User profile management", "Appointment scheduling"],
+                  "middleware": ["Push notifications", "Real-time syncing"]
+                },
+                "web": {
+                  "frontend": ["Search healthcare providers", "Book and manage appointments", "Access medical history", "View doctor availability"],
+                  "backend": ["User data storage", "Doctor availability syncing", "Appointment reminders"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "User-friendly interface", "Responsive design"],
+                  "backend": ["Scalable infrastructure", "Low latency", "Data security"],
+                  "middleware": ["Real-time syncing", "Fast notification delivery"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Responsive UI", "Efficient search functionality"],
+                  "backend": ["High uptime", "Secure data storage", "Scalable system"],
+                  "middleware": ["Real-time sync", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Appointment scheduling functional", "Notification reminders working", "Doctor search functional"],
+                "web": ["Appointment management working", "Search for healthcare providers functional", "Medical record access functional"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync errors", "Delayed notifications"],
+                "web": ["Slow load times", "Broken links", "Data syncing failures"]
+              }
+            },
+            {
+              "name": "Jameda",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Search doctors", "Book appointments", "Access medical information", "View treatment history"],
+                  "backend": ["User profile management", "Doctor scheduling", "Appointment notifications"],
+                  "middleware": ["Push notifications", "Real-time sync"]
+                },
+                "web": {
+                  "frontend": ["Find doctors", "Book and manage appointments", "View treatment details", "Access medical records"],
+                  "backend": ["User data storage", "Doctor availability", "Appointment scheduling"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Responsive design", "Fast access to information"],
+                  "backend": ["Scalable system", "Data encryption", "Low latency"],
+                  "middleware": ["Real-time syncing", "Push notifications"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Quick access to doctor info", "Responsive UI"],
+                  "backend": ["Fast data syncing", "Secure system", "High uptime"],
+                  "middleware": ["Push notifications", "Real-time sync"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Search for doctors working", "Appointment booking functional", "Medical information accessible"],
+                "web": ["Appointment management functional", "Doctor search available", "Medical record access working"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync errors", "Delayed notifications"],
+                "web": ["Slow load times", "Broken links", "Syncing failures"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "UAE",
+          "Apps": [
+            {
+              "name": "Vezeeta",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Search doctors", "Book appointments", "View medical history", "Manage reminders"],
+                  "backend": ["Doctor availability management", "User authentication", "Scheduling system"],
+                  "middleware": ["Push notifications", "Real-time syncing"]
+                },
+                "web": {
+                  "frontend": ["Search doctors", "Book appointments", "View health records", "Schedule visits"],
+                  "backend": ["Appointment scheduling", "User data management", "Doctor availability syncing"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 3s", "Easy navigation", "User-friendly interface"],
+                  "backend": ["Low latency", "Scalable system", "Data security"],
+                  "middleware": ["Fast syncing", "Real-time notifications"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Quick doctor search", "Responsive UI"],
+                  "backend": ["99.99% uptime", "Scalable infrastructure", "Secure data handling"],
+                  "middleware": ["Real-time syncing", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Appointment booking functional", "Notifications working", "Doctor search functional"],
+                "web": ["Appointment management functional", "Health records accessible", "Doctor scheduling available"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync errors", "Delayed notifications"],
+                "web": ["Slow page load", "Broken links", "Sync failures"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Subdomain Name": "Medication Reminders",
+      "Regions": [
+        {
+          "Region": "USA",
+          "Apps": [
+            {
+              "name": "Medisafe Pill Minder",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Set medication reminders", "Track medication adherence", "View medication history", "Get pill notifications", "Allow for manual medication logging"],
+                  "backend": ["Medication scheduling", "User profile management", "Reminder notifications", "Sync data with cloud"],
+                  "middleware": ["Push notifications", "Real-time syncing", "Error logging for reminder failures"]
+                },
+                "web": {
+                  "frontend": ["Set reminders", "View medication history", "Track medication adherence", "Generate medication reports"],
+                  "backend": ["Data storage", "Medication reminder syncing", "User management", "Reports generation"],
+                  "middleware": ["Push notifications", "Real-time syncing", "Error logging"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 3s", "Intuitive design", "Easy navigation", "Accessibility for seniors"],
+                  "backend": ["Scalable system", "Low latency", "Secure data storage", "Backup mechanisms"],
+                  "middleware": ["Real-time syncing", "Fast notifications", "Error handling"]
+                },
+                "web": {
+                  "frontend": ["Page load < 2s", "Responsive UI", "Quick access to medication data", "Responsive to mobile devices"],
+                  "backend": ["High uptime", "Fast syncing", "Secure data handling", "Daily backups"],
+                  "middleware": ["Real-time syncing", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Reminder setting functional", "Notification working", "Medication tracking functional", "Error logging for failed reminders"],
+                "web": ["Medication history accessible", "Reminder system working", "Real-time updates functional", "Generate medication reports"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync errors", "Delayed notifications", "Incorrect reminder timing"],
+                "web": ["Slow page load", "Broken links", "Sync issues", "Incorrect reminder alerts"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "Australia",
+          "Apps": [
+            {
+              "name": "MedAdvisor",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Track medications", "Set medication reminders", "View prescription history", "Get pill reminders", "Add custom medication schedules"],
+                  "backend": ["Medication scheduling", "Prescription management", "User profile management", "Sync with pharmacy database"],
+                  "middleware": ["Push notifications", "Real-time updates", "Medication recommendation engine"]
+                },
+                "web": {
+                  "frontend": ["Track medications", "View prescription history", "Set reminders", "Access medication suggestions"],
+                  "backend": ["Prescription data storage", "Medication reminder syncing", "User authentication", "Medication data sync with pharmacies"],
+                  "middleware": ["Push notifications", "Real-time syncing", "Recommendation engine integration"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 3s", "Smooth user experience", "Responsive design", "Compatibility with wearable devices"],
+                  "backend": ["Scalable system", "Secure data storage", "Low latency", "Data privacy protection"],
+                  "middleware": ["Real-time syncing", "Fast notifications", "Seamless API calls"]
+                },
+                "web": {
+                  "frontend": ["Page load < 2s", "Quick medication access", "Responsive UI", "Mobile-friendly"],
+                  "backend": ["99.99% uptime", "Fast syncing", "Secure data handling", "HIPAA compliance"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Reminder feature working", "Prescription history accessible", "Notification system working", "Custom medication schedules functional"],
+                "web": ["Medication tracking functional", "Reminder syncing available", "Prescription records accessible", "Medication suggestions accurate"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Delayed reminders", "Sync issues", "Inaccurate medication suggestions"],
+                "web": ["Slow page load", "Broken links", "Sync errors", "Incorrect medication tracking"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Subdomain Name": "Emergency Services",
+      "Regions": [
+        {
+          "Region": "Australia",
+          "Apps": [
+            {
+              "name": "St John First Responder",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Locate nearest emergency services", "Request first responder assistance", "View first responder updates", "Access emergency contact details"],
+                  "backend": ["Real-time responder location syncing", "Request management", "User data management", "Emergency contact integration"],
+                  "middleware": ["Push notifications", "Real-time updates", "Emergency services map integration"]
+                },
+                "web": {
+                  "frontend": ["View nearest responders", "Request first responder assistance", "Track emergency status", "View responder location on map"],
+                  "backend": ["Responder data management", "Request logging", "User management", "Emergency services data storage"],
+                  "middleware": ["Push notifications", "Real-time syncing", "Map service integration"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 3s", "User-friendly design", "Easy navigation", "Integration with GPS services"],
+                  "backend": ["Low latency", "Scalable system", "Secure data storage", "Backup mechanisms"],
+                  "middleware": ["Real-time syncing", "Fast notifications", "Error handling"]
+                },
+                "web": {
+                  "frontend": ["Page load < 2s", "Quick responder tracking", "Responsive UI", "Interactive map"],
+                  "backend": ["High uptime", "Real-time syncing", "Secure data management", "Daily backups"],
+                  "middleware": ["Real-time updates", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Request assistance functional", "Responder updates real-time", "Notification system working", "Emergency contact info accessible"],
+                "web": ["Emergency request system functional", "Responder tracking available", "Emergency status updates working", "Map integration functional"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync errors", "Delayed notifications", "Incorrect location tracking"],
+                "web": ["Slow load times", "Broken links", "Sync failures", "Map errors"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "Singapore",
+          "Apps": [
+            {
+              "name": "Speedoc",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Request emergency services", "Locate nearest healthcare providers", "Track emergency service status", "View healthcare provider details"],
+                  "backend": ["Healthcare provider data management", "Request logging", "User management", "Healthcare provider rating system"],
+                  "middleware": ["Push notifications", "Real-time syncing", "Rating system"]
+                },
+                "web": {
+                  "frontend": ["Request emergency services", "Track healthcare provider location", "Monitor emergency status", "View service ratings"],
+                  "backend": ["Data storage", "Healthcare provider syncing", "User authentication", "Healthcare provider review system"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 2s", "Responsive design", "Smooth user experience", "Integration with emergency contact list"],
+                  "backend": ["Scalable system", "Low latency", "Secure data management", "Quick response times"],
+                  "middleware": ["Fast syncing", "Real-time updates"]
+                },
+                "web": {
+                  "frontend": ["Page load < 3s", "Quick access to healthcare providers", "Responsive UI", "Interactive map"],
+                  "backend": ["High performance", "Fast syncing", "Secure data storage", "Fast search functionality"],
+                  "middleware": ["Real-time syncing", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Request assistance functional", "Emergency tracking available", "Healthcare provider access working", "Rating system functional"],
+                "web": ["Request system working", "Healthcare provider tracking functional", "Emergency status monitoring operational", "Service ratings available"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow syncing", "Notification failures", "Incorrect location"],
+                "web": ["Slow page load", "Broken links", "Sync issues", "Incorrect ratings"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Subdomain Name": "AI Diagnostics",
+      "Regions": [
+        {
+          "Region": "Germany",
+          "Apps": [
+            {
+              "name": "Ada Health",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Provide symptom checker", "Offer personalized health insights", "Connect with healthcare professionals", "Track health condition over time", "Monitor vital signs"],
+                  "backend": ["AI-powered diagnosis engine", "Health data synchronization", "Healthcare provider database", "Patient history management", "Symptom analysis"],
+                  "middleware": ["Push notifications", "Real-time data syncing", "Healthcare provider connection"]
+                },
+                "web": {
+                  "frontend": ["Symptom checker interface", "Personal health insights", "Schedule consultations with professionals", "Track health status"],
+                  "backend": ["Symptom data processing", "User profile management", "Healthcare provider data sync", "Diagnosis history logging"],
+                  "middleware": ["Real-time updates", "Notifications"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load time < 2s", "User-friendly interface", "Accessibility features", "Data security"],
+                  "backend": ["Low latency", "Scalable architecture", "Data encryption", "Data backup"],
+                  "middleware": ["Fast notifications", "Error-free syncing", "Reliable connection to healthcare providers"]
+                },
+                "web": {
+                  "frontend": ["Responsive design", "Page load < 2s", "Interactive UI", "Mobile compatibility"],
+                  "backend": ["99% uptime", "Quick data sync", "Secure user authentication", "Data redundancy"],
+                  "middleware": ["Real-time syncing", "Notification system"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Symptom checker functional", "Personalized insights generated", "Health tracking works", "Consultation scheduling available"],
+                "web": ["Symptom checker working", "Health insights visible", "Consultation scheduling functional", "Data syncing operational"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow symptom checker response", "Data syncing issues", "Login failures"],
+                "web": ["Slow loading", "Broken links", "Data syncing errors", "User authentication issues"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "Netherlands",
+          "Apps": [
+            {
+              "name": "SkinVision",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Scan and analyze skin lesions", "Provide skin cancer risk score", "Track skin condition over time", "Offer personalized health advice", "Integrate with healthcare providers for further diagnosis"],
+                  "backend": ["AI-based image analysis engine", "Skin condition tracking", "User profile management", "Health history database", "Risk assessment engine"],
+                  "middleware": ["Push notifications", "Real-time analysis updates", "Healthcare provider connection"]
+                },
+                "web": {
+                  "frontend": ["Upload skin images", "View skin condition analysis", "Track condition changes", "Get advice on potential health risks"],
+                  "backend": ["Skin condition data processing", "User profile management", "AI risk assessment syncing", "Image database storage"],
+                  "middleware": ["Real-time updates", "Notifications"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["Quick app loading (< 2s)", "High image processing accuracy", "Secure data transmission", "Accessibility features"],
+                  "backend": ["Low latency", "High availability", "Data encryption", "Scalable system"],
+                  "middleware": ["Fast notifications", "Error-free syncing"]
+                },
+                "web": {
+                  "frontend": ["Responsive design", "Fast page load", "Mobile-optimized", "User-friendly interface"],
+                  "backend": ["99% uptime", "Secure data management", "Quick image analysis syncing", "Data protection"],
+                  "middleware": ["Real-time updates", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Skin lesion scanning works", "Risk score generated", "Skin condition tracking functional", "Notifications working"],
+                "web": ["Skin image uploading functional", "Risk analysis displayed", "Condition tracking operational", "Real-time updates working"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow image analysis", "Data syncing errors", "Notification issues"],
+                "web": ["Slow page loading", "Broken links", "Syncing errors", "Image upload failure"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "France",
+          "Apps": [
+            {
+              "name": "Avec Mon Doc",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Book medical appointments", "Access medical history", "Consult doctors virtually", "View lab results", "Manage prescriptions"],
+                  "backend": ["Appointment booking system", "Patient medical record storage", "Doctor consultation platform", "Lab result database", "Prescription management system"],
+                  "middleware": ["Push notifications", "Real-time updates", "Appointment reminders"]
+                },
+                "web": {
+                  "frontend": ["Book appointments", "View medical history", "Consult doctors online", "Track prescriptions"],
+                  "backend": ["Medical record management", "Appointment syncing", "Prescription management", "Doctor data storage"],
+                  "middleware": ["Real-time syncing", "Notifications"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["Fast app loading (< 2s)", "Secure data storage", "User-friendly interface", "Multi-language support"],
+                  "backend": ["Scalable infrastructure", "Low latency", "Data encryption", "Reliable uptime"],
+                  "middleware": ["Quick notifications", "Seamless syncing"]
+                },
+                "web": {
+                  "frontend": ["Responsive design", "Page load < 2s", "Mobile-optimized", "Easy navigation"],
+                  "backend": ["99.9% uptime", "Fast data sync", "Secure user authentication", "Data redundancy"],
+                  "middleware": ["Real-time syncing", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Appointment booking functional", "Medical history viewable", "Virtual consultations working", "Lab results accessible"],
+                "web": ["Appointment booking available", "Medical history synced", "Consultation service operational", "Prescription tracking visible"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow appointment booking", "Sync errors", "Data not loading"],
+                "web": ["Slow page load", "Broken links", "Syncing issues", "Unable to book appointments"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Subdomain Name": "Standardization and Patient Support",
+      "Regions": [
+        {
+          "Region": "Switzerland",
+          "Apps": [
+            {
+              "name": "HIN Health",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Provide standardization for health data", "Allow patient support messaging", "Integrate with healthcare providers", "Track patient health status", "Enable prescription management"],
+                  "backend": ["Health data synchronization", "Patient support system", "Healthcare provider database", "Patient health status logging", "Prescription management system"],
+                  "middleware": ["Push notifications", "Real-time data syncing", "Patient support ticket management"]
+                },
+                "web": {
+                  "frontend": ["Access health data standards", "View patient health status", "Send and receive patient support messages", "Track prescriptions"],
+                  "backend": ["Healthcare provider syncing", "Data storage and retrieval", "Patient authentication", "Health status logging"],
+                  "middleware": ["Real-time data syncing", "Notification system"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["Fast app loading time (< 3s)", "Secure data transmission", "User-friendly interface", "Accessibility features"],
+                  "backend": ["Low latency", "Scalable infrastructure", "Data backup", "Encryption for patient data"],
+                  "middleware": ["Fast notifications", "Error handling", "Real-time syncing"]
+                },
+                "web": {
+                  "frontend": ["Responsive design", "Page load time < 2s", "Interactive UI", "Accessible on mobile devices"],
+                  "backend": ["High uptime", "Quick data sync", "Secure user authentication", "Data backup and redundancy"],
+                  "middleware": ["Real-time syncing", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Patient data syncing works", "Support messaging functional", "Prescription tracking available", "Notifications triggered"],
+                "web": ["Health data is accessible", "Support system responsive", "Prescription history visible", "Real-time updates functional"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Data syncing issues", "Delayed notifications", "Login problems"],
+                "web": ["Slow page loading", "Broken links", "Sync errors", "Display issues with health data"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "Netherlands",
+          "Apps": [
+            {
+              "name": "BeterDichtbij",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Provide standardization of health records", "Enable patient support messaging", "View healthcare provider availability", "Book virtual appointments", "Track patient health data"],
+                  "backend": ["Health record syncing", "Appointment booking system", "Patient support database", "Provider availability syncing", "Patient data logging"],
+                  "middleware": ["Push notifications", "Real-time syncing", "Appointment reminder system"]
+                },
+                "web": {
+                  "frontend": ["Access patient records", "Book virtual appointments", "View healthcare provider profiles", "Track medical history"],
+                  "backend": ["Data storage and syncing", "User management", "Healthcare provider data syncing", "Appointment tracking"],
+                  "middleware": ["Push notifications", "Real-time updates"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["Fast loading (< 2s)", "Secure data handling", "User-friendly interface", "Accessibility features for seniors"],
+                  "backend": ["Scalable system", "Real-time data syncing", "Low latency", "Secure storage of health data"],
+                  "middleware": ["Quick notification system", "Error logging", "Real-time syncing"]
+                },
+                "web": {
+                  "frontend": ["Responsive design", "Page load time < 2s", "Mobile-friendly", "User-focused navigation"],
+                  "backend": ["High availability", "Data sync without delay", "Secure user authentication", "Data backup and redundancy"],
+                  "middleware": ["Real-time syncing", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Health record syncing available", "Support messaging functional", "Virtual appointment system working", "Notifications working"],
+                "web": ["Health records visible", "Appointment booking functional", "Provider data synced", "Medical history tracking working"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Sync issues", "Delayed notifications", "Appointment booking failure"],
+                "web": ["Slow page load", "Broken links", "Syncing errors", "Incorrect health data display"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Subdomain Name": "Pharmacy Management",
+      "Regions": [
+        {
+          "Region": "India",
+          "Apps": [
+            {
+              "name": "1mg",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Search medications", "View prescriptions", "Order medicines", "Track order status", "Offer health consultations"],
+                  "backend": ["Medicine inventory management", "Prescription syncing", "Order management", "User profile management", "Payment gateway integration"],
+                  "middleware": ["Push notifications", "Real-time updates", "Order tracking system"]
+                },
+                "web": {
+                  "frontend": ["Search for medicines", "Order medicines online", "Track orders", "View doctor consultations"],
+                  "backend": ["Order data storage", "Prescription management", "Payment processing", "User authentication"],
+                  "middleware": ["Push notifications", "Real-time syncing", "Payment gateway integration"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["Fast app loading (< 2s)", "Smooth user interface", "Easy navigation", "Secure transactions"],
+                  "backend": ["Scalable system", "Low latency", "Fast syncing", "Secure data storage"],
+                  "middleware": ["Real-time notifications", "Seamless order tracking"]
+                },
+                "web": {
+                  "frontend": ["Page load < 2s", "Responsive UI", "Mobile-friendly design", "Quick medicine search"],
+                  "backend": ["99.9% uptime", "Quick syncing", "Secure payment handling", "Data privacy protection"],
+                  "middleware": ["Real-time syncing", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Medicine ordering works", "Prescription syncing functional", "Order tracking functional", "Consultation service available"],
+                "web": ["Medicine search working", "Order tracking visible", "Payment gateway working", "Prescription viewing functional"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow syncing", "Order tracking issues", "Payment failures"],
+                "web": ["Slow page load", "Broken links", "Payment errors", "Order tracking malfunction"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "South Africa",
+          "Apps": [
+            {
+              "name": "Clicks Pharmacy",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Search for medicines", "Check pharmacy offers", "Order online", "Get medication reminders", "Track delivery status"],
+                  "backend": ["Medicine inventory", "Prescription management", "Order handling", "User authentication", "Payment gateway integration"],
+                  "middleware": ["Push notifications", "Real-time updates", "Order tracking"]
+                },
+                "web": {
+                  "frontend": ["Order medicines", "Track medication deliveries", "View pharmacy offers", "Consult with pharmacists"],
+                  "backend": ["Prescription data storage", "Order management", "User profile management", "Payment integration"],
+                  "middleware": ["Push notifications", "Order syncing", "Live chat with pharmacists"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["App load < 3s", "Secure data transmission", "Intuitive interface", "Accessible for elderly users"],
+                  "backend": ["Scalable infrastructure", "Low latency", "Data encryption", "Backup systems"],
+                  "middleware": ["Real-time notifications", "Error handling"]
+                },
+                "web": {
+                  "frontend": ["Responsive UI", "Quick page load", "Mobile-friendly", "Easy navigation"],
+                  "backend": ["99% uptime", "Secure user data", "Fast syncing", "High availability"],
+                  "middleware": ["Real-time syncing", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Medicine search functional", "Order tracking operational", "Prescription syncing working", "Notifications working"],
+                "web": ["Order processing functional", "Pharmacy offers visible", "Consultation with pharmacists available", "Tracking system functional"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Slow syncing", "Payment failures", "Notification issues"],
+                "web": ["Slow page load", "Broken links", "Payment errors", "Sync issues"]
+              }
+            }
+          ]
+        },
+        {
+          "Region": "Brazil",
+          "Apps": [
+            {
+              "name": "Pague Menos Saude",
+              "functional_requirements": {
+                "mobile": {
+                  "frontend": ["Search for pharmacy products", "Order prescriptions", "Track orders", "View promotions", "Access health tips"],
+                  "backend": ["Product catalog management", "Prescription syncing", "Order management", "User profile storage", "Payment gateway integration"],
+                  "middleware": ["Push notifications", "Order tracking", "Real-time syncing"]
+                },
+                "web": {
+                  "frontend": ["Browse pharmacy products", "Order prescriptions online", "Track order status", "Access health advice"],
+                  "backend": ["Order data storage", "Prescription syncing", "Payment processing", "User authentication"],
+                  "middleware": ["Push notifications", "Real-time updates", "Order syncing"]
+                }
+              },
+              "non_functional_requirements": {
+                "mobile": {
+                  "frontend": ["Fast load times", "Secure transactions", "User-friendly", "Fast search functionality"],
+                  "backend": ["Scalable architecture", "Low latency", "Data encryption", "Reliability"],
+                  "middleware": ["Fast notifications", "Error-free syncing"]
+                },
+                "web": {
+                  "frontend": ["Responsive design", "Page load time < 2s", "Easy navigation", "Mobile optimized"],
+                  "backend": ["High uptime", "Data protection", "Secure user data", "Reliable payment processing"],
+                  "middleware": ["Real-time syncing", "Push notifications"]
+                }
+              },
+              "acceptance_criteria": {
+                "mobile": ["Product search functional", "Prescription tracking available", "Order system working", "Notifications functional"],
+                "web": ["Order tracking visible", "Payment system operational", "Product catalog accessible", "Health tips accessible"]
+              },
+              "common_bugs": {
+                "mobile": ["App crashes", "Search issues", "Order syncing failure", "Payment issues"],
+                "web": ["Slow loading", "Broken links", "Sync issues", "Error with payment"]
+              }
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}

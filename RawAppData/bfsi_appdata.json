@@ -1,0 +1,725 @@
+{
+    "Domain": "Banking",
+    "Subdomains": [
+      {
+        "Subdomain Name": "Retail Banking",
+        "Regions": [
+          {
+            "Region": "India",
+            "Apps": [
+              {
+                "name": "SBI - YONO",
+                "functional_requirements": {
+                  "mobile": {
+                    "frontend": [
+                      "User Authentication",
+                      "Fund Transfers",
+                      "Account Overview",
+                      "Bill Payments",
+                      "Investment Services",
+                      "Loan Services",
+                      "Agri Solutions"
+                    ],
+                    "middleware": [
+                      "API Integration",
+                      "Transaction Processing"
+                    ],
+                    "backend": [
+                      "Data Sync",
+                      "User Authentication"
+                    ]
+                  },
+                  "web": {
+                    "frontend": [],
+                    "backend": [
+                      "Transaction processing",
+                      "Data storage and retrieval",
+                      "API integration",
+                      "Fraud detection"
+                    ],
+                    "middleware": [
+                      "Real-time notifications",
+                      "Secure messaging protocols",
+                      "Logging and monitoring",
+                      "Data analytics integration"
+                    ]
+                  }
+                },
+                "non_functional_requirements": {
+                  "mobile": {
+                    "frontend": [
+                      "UI Responsiveness",
+                      "Performance",
+                      "Security",
+                      "Scalability",
+                      "Accessibility"
+                    ],
+                    "backend": [
+                      "High availability",
+                      "Low latency",
+                      "Data security",
+                      "Scalability"
+                    ],
+                    "middleware": [
+                      "Reliable notifications",
+                      "Real-time sync",
+                      "Error handling"
+                    ]
+                  },
+                  "web": {
+                    "frontend": [],
+                    "backend": [
+                      "High availability",
+                      "Low latency",
+                      "Data security",
+                      "Scalability"
+                    ],
+                    "middleware": [
+                      "Reliable notifications",
+                      "Real-time sync",
+                      "Error handling"
+                    ]
+                  }
+                },
+                "acceptance_criteria": {
+                  "mobile": [
+                    "Biometric authentication must be set up during the initial login.",
+                    "Authentication must be completed within 2 seconds.",
+                    "Fallback to PIN after 5 failed biometric attempts."
+                  ],
+                  "web": [
+                    "Core features functional",
+                    "Secure user authentication",
+                    "Responsive design"
+                  ]
+                },
+                "common_bugs": {
+                  "mobile": [
+                    "Login failures due to server issues",
+                    "Delayed fund transfers",
+                    "Sync errors in transaction history",
+                    "Performance lags during high traffic"
+                  ],
+                  "web": [
+                    "Slow page load",
+                    "Session timeouts",
+                    "Broken links"
+                  ]
+                }
+              },
+              {
+                "name": "ICICI - iMobile",
+                "functional_requirements": {
+                  "mobile": {
+                    "frontend": [
+                      "User Authentication",
+                      "Fund Transfers",
+                      "Account Overview",
+                      "Bill Payments",
+                      "Loan Services",
+                      "Investment Services",
+                      "Insurance Management"
+                    ],
+                    "backend": [
+                      "Transaction processing",
+                      "Data storage and retrieval",
+                      "API integration",
+                      "Fraud detection"
+                    ],
+                    "middleware": [
+                      "Real-time notifications",
+                      "Secure messaging protocols",
+                      "Logging and monitoring",
+                      "Data analytics integration"
+                    ]
+                  },
+                  "web": {
+                    "frontend": [],
+                    "backend": [
+                      "Transaction processing",
+                      "Data storage and retrieval",
+                      "API integration",
+                      "Fraud detection"
+                    ],
+                    "middleware": [
+                      "Real-time notifications",
+                      "Secure messaging protocols",
+                      "Logging and monitoring",
+                      "Data analytics integration"
+                    ]
+                  }
+                },
+                "non_functional_requirements": {
+                  "mobile": {
+                    "frontend": [
+                      "UI Responsiveness",
+                      "Performance",
+                      "Security",
+                      "Scalability",
+                      "Accessibility"
+                    ],
+                    "backend": [
+                      "High availability",
+                      "Low latency",
+                      "Data security",
+                      "Scalability"
+                    ],
+                    "middleware": [
+                      "Reliable notifications",
+                      "Real-time sync",
+                      "Error handling"
+                    ]
+                  },
+                  "web": {
+                    "frontend": [],
+                    "backend": [
+                      "High availability",
+                      "Low latency",
+                      "Data security",
+                      "Scalability"
+                    ],
+                    "middleware": [
+                      "Reliable notifications",
+                      "Real-time sync",
+                      "Error handling"
+                    ]
+                  }
+                },
+                "acceptance_criteria": {
+                  "mobile": [
+                    "Supports multi-language interface.",
+                    "Core functionalities must work seamlessly in all languages.",
+                    "Provide real-time transaction history."
+                  ],
+                  "web": [
+                    "Core features functional",
+                    "Secure user authentication",
+                    "Responsive design"
+                  ]
+                },
+                "common_bugs": {
+                  "mobile": [
+                    "Login issues due to incorrect credentials",
+                    "Failed fund transfers during peak hours",
+                    "Missing transaction details in account overview"
+                  ],
+                  "web": [
+                    "Slow page load",
+                    "Session timeouts",
+                    "Broken links"
+                  ]
+                }
+              },
+              {
+                "name": "HDFC - Mobile Banking",
+                "functional_requirements": {
+                  "mobile": {
+                    "frontend": [
+                      "Account Overview",
+                      "Fund Transfers",
+                      "Loan Management",
+                      "Mobile Recharges",
+                      "Card Management",
+                      "UPI Payments",
+                      "Bill Payments"
+                    ],
+                    "backend": [
+                      "Transaction processing",
+                      "Data storage and retrieval",
+                      "API integration",
+                      "Fraud detection"
+                    ],
+                    "middleware": [
+                      "Real-time notifications",
+                      "Secure messaging protocols",
+                      "Logging and monitoring",
+                      "Data analytics integration"
+                    ]
+                  },
+                  "web": {
+                    "frontend": [],
+                    "backend": [
+                      "Transaction processing",
+                      "Data storage and retrieval",
+                      "API integration",
+                      "Fraud detection"
+                    ],
+                    "middleware": [
+                      "Real-time notifications",
+                      "Secure messaging protocols",
+                      "Logging and monitoring",
+                      "Data analytics integration"
+                    ]
+                  }
+                },
+                "non_functional_requirements": {
+                  "mobile": {
+                    "frontend": [
+                      "UI Responsiveness",
+                      "Performance",
+                      "Security",
+                      "Reliability",
+                      "Scalability"
+                    ],
+                    "backend": [
+                      "High availability",
+                      "Low latency",
+                      "Data security",
+                      "Scalability"
+                    ],
+                    "middleware": [
+                      "Reliable notifications",
+                      "Real-time sync",
+                      "Error handling"
+                    ]
+                  },
+                  "web": {
+                    "frontend": [],
+                    "backend": [
+                      "High availability",
+                      "Low latency",
+                      "Data security",
+                      "Scalability"
+                    ],
+                    "middleware": [
+                      "Reliable notifications",
+                      "Real-time sync",
+                      "Error handling"
+                    ]
+                  }
+                },
+                "acceptance_criteria": {
+                  "mobile": [
+                    "Enable card management with spending limits.",
+                    "Provide instant fund transfer confirmation.",
+                    "Ensure transactions are processed under 2 seconds."
+                  ],
+                  "web": [
+                    "Core features functional",
+                    "Secure user authentication",
+                    "Responsive design"
+                  ]
+                },
+                "common_bugs": {
+                  "mobile": [
+                    "Slow response during peak traffic",
+                    "Card blocking delays",
+                    "Incorrect account balances in dashboard"
+                  ],
+                  "web": [
+                    "Slow page load",
+                    "Session timeouts",
+                    "Broken links"
+                  ]
+                }
+              },
+              {
+                "name": "Axis Bank - Mobile Banking",
+                "functional_requirements": {
+                  "mobile": {
+                    "frontend": [
+                      "Account Overview",
+                      "Fund Transfers",
+                      "Bill Payments",
+                      "Loan Applications",
+                      "Offers and Discounts",
+                      "Security Features"
+                    ],
+                    "backend": [
+                      "Transaction processing",
+                      "Data storage and retrieval",
+                      "API integration",
+                      "Fraud detection"
+                    ],
+                    "middleware": [
+                      "Real-time notifications",
+                      "Secure messaging protocols",
+                      "Logging and monitoring",
+                      "Data analytics integration"
+                    ]
+                  },
+                  "web": {
+                    "frontend": [],
+                    "backend": [
+                      "Transaction processing",
+                      "Data storage and retrieval",
+                      "API integration",
+                      "Fraud detection"
+                    ],
+                    "middleware": [
+                      "Real-time notifications",
+                      "Secure messaging protocols",
+                      "Logging and monitoring",
+                      "Data analytics integration"
+                    ]
+                  }
+                },
+                "non_functional_requirements": {
+                  "mobile": {
+                    "frontend": [
+                      "UI Responsiveness",
+                      "Performance",
+                      "Security",
+                      "Scalability",
+                      "Usability"
+                    ],
+                    "backend": [
+                      "High availability",
+                      "Low latency",
+                      "Data security",
+                      "Scalability"
+                    ],
+                    "middleware": [
+                      "Reliable notifications",
+                      "Real-time sync",
+                      "Error handling"
+                    ]
+                  },
+                  "web": {
+                    "frontend": [],
+                    "backend": [
+                      "High availability",
+                      "Low latency",
+                      "Data security",
+                      "Scalability"
+                    ],
+                    "middleware": [
+                      "Reliable notifications",
+                      "Real-time sync",
+                      "Error handling"
+                    ]
+                  }
+                },
+                "acceptance_criteria": {
+                  "mobile": [
+                    "Complete onboarding within 3 minutes.",
+                    "Guide users through key app features with tooltips.",
+                    "Ensure seamless navigation for new users."
+                  ],
+                  "web": [
+                    "Core features functional",
+                    "Secure user authentication",
+                    "Responsive design"
+                  ]
+                },
+                "common_bugs": {
+                  "mobile": [
+                    "Delayed bill payments",
+                    "Login challenges with multi-factor authentication",
+                    "Inaccurate loan details display"
+                  ],
+                  "web": [
+                    "Slow page load",
+                    "Session timeouts",
+                    "Broken links"
+                  ]
+                }
+              },
+              {
+                "name": "Kotak Mahindra Bank - Mobile Banking",
+                "functional_requirements": {
+                  "mobile": {
+                    "frontend": [
+                      "Account Management",
+                      "Fund Transfers",
+                      "Bill Payments",
+                      "Investment Services",
+                      "Card Management"
+                    ],
+                    "backend": [
+                      "Transaction processing",
+                      "Data storage and retrieval",
+                      "API integration",
+                      "Fraud detection"
+                    ],
+                    "middleware": [
+                      "Real-time notifications",
+                      "Secure messaging protocols",
+                      "Logging and monitoring",
+                      "Data analytics integration"
+                    ]
+                  },
+                  "web": {
+                    "frontend": [],
+                    "backend": [
+                      "Transaction processing",
+                      "Data storage and retrieval",
+                      "API integration",
+                      "Fraud detection"
+                    ],
+                    "middleware": [
+                      "Real-time notifications",
+                      "Secure messaging protocols",
+                      "Logging and monitoring",
+                      "Data analytics integration"
+                    ]
+                  }
+                },
+                "non_functional_requirements": {
+                  "mobile": {
+                    "frontend": [
+                      "Performance",
+                      "Security",
+                      "Scalability",
+                      "Accessibility"
+                    ],
+                    "backend": [
+                      "High availability",
+                      "Low latency",
+                      "Data security",
+                      "Scalability"
+                    ],
+                    "middleware": [
+                      "Reliable notifications",
+                      "Real-time sync",
+                      "Error handling"
+                    ]
+                  },
+                  "web": {
+                    "frontend": [],
+                    "backend": [
+                      "High availability",
+                      "Low latency",
+                      "Data security",
+                      "Scalability"
+                    ],
+                    "middleware": [
+                      "Reliable notifications",
+                      "Real-time sync",
+                      "Error handling"
+                    ]
+                  }
+                },
+                "acceptance_criteria": {
+                  "mobile": [
+                    "Add and manage beneficiaries within 30 minutes.",
+                    "Enable real-time transaction notifications.",
+                    "Provide clear error messages for invalid inputs."
+                  ],
+                  "web": [
+                    "Core features functional",
+                    "Secure user authentication",
+                    "Responsive design"
+                  ]
+                },
+                "common_bugs": {
+                  "mobile": [
+                    "Delayed fund transfer confirmation",
+                    "Errors in blocking/unblocking cards",
+                    "Inconsistent balance updates"
+                  ],
+                  "web": [
+                    "Slow page load",
+                    "Session timeouts",
+                    "Broken links"
+                  ]
+                }
+              },
+              {
+                "name": "Paytm Payments Bank",
+                "functional_requirements": {
+                  "mobile": {
+                    "frontend": [
+                      "Wallet Management",
+                      "UPI Payments",
+                      "Savings Account Services",
+                      "Bill Payments & Recharges",
+                      "Card Management"
+                    ],
+                    "backend": [
+                      "Transaction processing",
+                      "Data storage and retrieval",
+                      "API integration",
+                      "Fraud detection"
+                    ],
+                    "middleware": [
+                      "Real-time notifications",
+                      "Secure messaging protocols",
+                      "Logging and monitoring",
+                      "Data analytics integration"
+                    ]
+                  },
+                  "web": {
+                    "frontend": [],
+                    "backend": [
+                      "Transaction processing",
+                      "Data storage and retrieval",
+                      "API integration",
+                      "Fraud detection"
+                    ],
+                    "middleware": [
+                      "Real-time notifications",
+                      "Secure messaging protocols",
+                      "Logging and monitoring",
+                      "Data analytics integration"
+                    ]
+                  }
+                },
+                "non_functional_requirements": {
+                  "mobile": {
+                    "frontend": [
+                      "Performance",
+                      "Security",
+                      "Scalability",
+                      "Accessibility",
+                      "Integration"
+                    ],
+                    "backend": [
+                      "High availability",
+                      "Low latency",
+                      "Data security",
+                      "Scalability"
+                    ],
+                    "middleware": [
+                      "Reliable notifications",
+                      "Real-time sync",
+                      "Error handling"
+                    ]
+                  },
+                  "web": {
+                    "frontend": [],
+                    "backend": [
+                      "High availability",
+                      "Low latency",
+                      "Data security",
+                      "Scalability"
+                    ],
+                    "middleware": [
+                      "Reliable notifications",
+                      "Real-time sync",
+                      "Error handling"
+                    ]
+                  }
+                },
+                "acceptance_criteria": {
+                  "mobile": [
+                    "Complete UPI transactions with two-factor authentication.",
+                    "Send payment notifications in real-time.",
+                    "Provide a secure session timeout after 5 minutes of inactivity."
+                  ],
+                  "web": [
+                    "Core features functional",
+                    "Secure user authentication",
+                    "Responsive design"
+                  ]
+                },
+                "common_bugs": {
+                  "mobile": [
+                    "Failed UPI transactions during peak hours",
+                    "Wallet balance update delays",
+                    "Connectivity issues causing payment failures"
+                  ],
+                  "web": [
+                    "Slow page load",
+                    "Session timeouts",
+                    "Broken links"
+                  ]
+                }
+              },
+              {
+                "name": "Yes Bank - Mobile Banking",
+                "functional_requirements": {
+                  "mobile": {
+                    "frontend": [
+                      "Account Management",
+                      "Fund Transfers",
+                      "Bill Payments",
+                      "Loan Services",
+                      "Investment Options"
+                    ],
+                    "backend": [
+                      "Transaction processing",
+                      "Data storage and retrieval",
+                      "API integration",
+                      "Fraud detection"
+                    ],
+                    "middleware": [
+                      "Real-time notifications",
+                      "Secure messaging protocols",
+                      "Logging and monitoring",
+                      "Data analytics integration"
+                    ]
+                  },
+                  "web": {
+                    "frontend": [],
+                    "backend": [
+                      "Transaction processing",
+                      "Data storage and retrieval",
+                      "API integration",
+                      "Fraud detection"
+                    ],
+                    "middleware": [
+                      "Real-time notifications",
+                      "Secure messaging protocols",
+                      "Logging and monitoring",
+                      "Data analytics integration"
+                    ]
+                  }
+                },
+                "non_functional_requirements": {
+                  "mobile": {
+                    "frontend": [
+                      "Performance",
+                      "Security",
+                      "Scalability",
+                      "Accessibility",
+                      "Integration"
+                    ],
+                    "backend": [
+                      "High availability",
+                      "Low latency",
+                      "Data security",
+                      "Scalability"
+                    ],
+                    "middleware": [
+                      "Reliable notifications",
+                      "Real-time sync",
+                      "Error handling"
+                    ]
+                  },
+                  "web": {
+                    "frontend": [],
+                    "backend": [
+                      "High availability",
+                      "Low latency",
+                      "Data security",
+                      "Scalability"
+                    ],
+                    "middleware": [
+                      "Reliable notifications",
+                      "Real-time sync",
+                      "Error handling"
+                    ]
+                  }
+                },
+                "acceptance_criteria": {
+                  "mobile": [
+                    "Provide real-time loan eligibility checks.",
+                    "Enable voice-guided assistance for accessibility.",
+                    "Ensure data synchronization across all user sessions."
+                  ],
+                  "web": [
+                    "Core features functional",
+                    "Secure user authentication",
+                    "Responsive design"
+                  ]
+                },
+                "common_bugs": {
+                  "mobile": [
+                    "Delayed loan status updates",
+                    "Transaction timeouts during high traffic",
+                    "Inaccurate bill payment statuses"
+                  ],
+                  "web": [
+                    "Slow page load",
+                    "Session timeouts",
+                    "Broken links"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,638 @@
+{
+    "Telemedicine": {
+        "mobile": {
+            "frontend": {
+                "FR": [
+                    {
+                        "Feature": "Appointment booking",
+                        "apps": {
+                            "USA": [
+                                "Teladoc Health",
+                                "HealthTap"
+                            ],
+                            "India": [
+                                "Practo"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Doctor search works",
+                                "Appointment booking functional",
+                                "Prescription management available"
+                            ],
+                            "web": [
+                                "Doctor search functional",
+                                "Consultation booking functional",
+                                "Health records visible"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Video lag",
+                                "Sync issues"
+                            ],
+                            "web": [
+                                "Page load slow",
+                                "Session timeout",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Video consultation",
+                        "apps": {
+                            "USA": [
+                                "Teladoc Health"
+                            ],
+                            "UK": [
+                                "Push Doctor"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Video consultation works",
+                                "Doctor search functional",
+                                "Health record access available"
+                            ],
+                            "web": [
+                                "Consultation history accessible",
+                                "Health records visible",
+                                "Doctor search functional"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Video lag",
+                                "Push notifications delayed"
+                            ],
+                            "web": [
+                                "Slow load",
+                                "Broken links",
+                                "Error saving data"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Health record tracking",
+                        "apps": {
+                            "USA": [
+                                "Teladoc Health",
+                                "HealthTap"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Appointment booking successful",
+                                "Consultation request works",
+                                "Health records sync"
+                            ],
+                            "web": [
+                                "Appointments bookable",
+                                "Health record tracking functional",
+                                "Prescription management available"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes unexpectedly",
+                                "Video call lag",
+                                "Sync issues with health records"
+                            ],
+                            "web": [
+                                "Slow page loading",
+                                "Broken links",
+                                "Error when editing profile"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Doctor search",
+                        "apps": {
+                            "USA": [
+                                "Teladoc Health"
+                            ],
+                            "UK": [
+                                "Push Doctor"
+                            ],
+                            "India": [
+                                "Practo"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Doctor search works",
+                                "Appointment booking functional",
+                                "Prescription management available"
+                            ],
+                            "web": [
+                                "Doctor search functional",
+                                "Consultation booking functional",
+                                "Health records visible"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Video lag",
+                                "Sync issues"
+                            ],
+                            "web": [
+                                "Page load slow",
+                                "Session timeout",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Payment gateway",
+                        "apps": {
+                            "USA": [
+                                "Teladoc Health"
+                            ],
+                            "India": [
+                                "Practo"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Doctor search works",
+                                "Appointment booking functional",
+                                "Prescription management available"
+                            ],
+                            "web": [
+                                "Doctor search functional",
+                                "Consultation booking functional",
+                                "Health records visible"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Video lag",
+                                "Sync issues"
+                            ],
+                            "web": [
+                                "Page load slow",
+                                "Session timeout",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Consultation request",
+                        "apps": {
+                            "USA": [
+                                "HealthTap"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Appointment booking successful",
+                                "Consultation request works",
+                                "Health records sync"
+                            ],
+                            "web": [
+                                "Appointments bookable",
+                                "Health record tracking functional",
+                                "Prescription management available"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes unexpectedly",
+                                "Video call lag",
+                                "Sync issues with health records"
+                            ],
+                            "web": [
+                                "Slow page loading",
+                                "Broken links",
+                                "Error when editing profile"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Doctor profiles",
+                        "apps": {
+                            "USA": [
+                                "HealthTap"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Appointment booking successful",
+                                "Consultation request works",
+                                "Health records sync"
+                            ],
+                            "web": [
+                                "Appointments bookable",
+                                "Health record tracking functional",
+                                "Prescription management available"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes unexpectedly",
+                                "Video call lag",
+                                "Sync issues with health records"
+                            ],
+                            "web": [
+                                "Slow page loading",
+                                "Broken links",
+                                "Error when editing profile"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Therapy sessions",
+                        "apps": {
+                            "USA": [
+                                "Talkspace"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Therapy sessions work",
+                                "Message exchange functional",
+                                "User authentication works"
+                            ],
+                            "web": [
+                                "Therapist search functional",
+                                "Appointments bookable",
+                                "Mood tracking available"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Message not delivered",
+                                "Slow sync"
+                            ],
+                            "web": [
+                                "Session timeout",
+                                "Slow page load",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Mood tracking",
+                        "apps": {
+                            "USA": [
+                                "Talkspace"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Therapy sessions work",
+                                "Message exchange functional",
+                                "User authentication works"
+                            ],
+                            "web": [
+                                "Therapist search functional",
+                                "Appointments bookable",
+                                "Mood tracking available"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Message not delivered",
+                                "Slow sync"
+                            ],
+                            "web": [
+                                "Session timeout",
+                                "Slow page load",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Message exchange",
+                        "apps": {
+                            "USA": [
+                                "Talkspace"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Therapy sessions work",
+                                "Message exchange functional",
+                                "User authentication works"
+                            ],
+                            "web": [
+                                "Therapist search functional",
+                                "Appointments bookable",
+                                "Mood tracking available"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Message not delivered",
+                                "Slow sync"
+                            ],
+                            "web": [
+                                "Session timeout",
+                                "Slow page load",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Appointment scheduling",
+                        "apps": {
+                            "USA": [
+                                "Talkspace"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Therapy sessions work",
+                                "Message exchange functional",
+                                "User authentication works"
+                            ],
+                            "web": [
+                                "Therapist search functional",
+                                "Appointments bookable",
+                                "Mood tracking available"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Message not delivered",
+                                "Slow sync"
+                            ],
+                            "web": [
+                                "Session timeout",
+                                "Slow page load",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Doctor consultation",
+                        "apps": {
+                            "Canada": [
+                                "Akira by TELUS Health"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Video consultation starts",
+                                "Health records visible",
+                                "Appointment scheduling functional"
+                            ],
+                            "web": [
+                                "Doctor search works",
+                                "Prescription management functional",
+                                "Consultation history viewable"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Video call not working",
+                                "Slow sync"
+                            ],
+                            "web": [
+                                "Page load slow",
+                                "Session timeout",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Health records",
+                        "apps": {
+                            "Canada": [
+                                "Akira by TELUS Health"
+                            ],
+                            "India": [
+                                "Practo"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Doctor search works",
+                                "Appointment booking functional",
+                                "Prescription management available"
+                            ],
+                            "web": [
+                                "Doctor search functional",
+                                "Consultation booking functional",
+                                "Health records visible"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Video lag",
+                                "Sync issues"
+                            ],
+                            "web": [
+                                "Page load slow",
+                                "Session timeout",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Medication tracking",
+                        "apps": {
+                            "Canada": [
+                                "Akira by TELUS Health"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Video consultation starts",
+                                "Health records visible",
+                                "Appointment scheduling functional"
+                            ],
+                            "web": [
+                                "Doctor search works",
+                                "Prescription management functional",
+                                "Consultation history viewable"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Video call not working",
+                                "Slow sync"
+                            ],
+                            "web": [
+                                "Page load slow",
+                                "Session timeout",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Video chat",
+                        "apps": {
+                            "Canada": [
+                                "Akira by TELUS Health"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Video consultation starts",
+                                "Health records visible",
+                                "Appointment scheduling functional"
+                            ],
+                            "web": [
+                                "Doctor search works",
+                                "Prescription management functional",
+                                "Consultation history viewable"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Video call not working",
+                                "Slow sync"
+                            ],
+                            "web": [
+                                "Page load slow",
+                                "Session timeout",
+                                "Broken links"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Consultation booking",
+                        "apps": {
+                            "UK": [
+                                "Babylon Health"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Appointments bookable",
+                                "Prescription management working",
+                                "Health records visible"
+                            ],
+                            "web": [
+                                "Doctor search functional",
+                                "Consultation booking available",
+                                "Health records visible"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Slow syncing",
+                                "Push notifications missing"
+                            ],
+                            "web": [
+                                "Broken links",
+                                "Slow page load",
+                                "Session timeout"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Health monitoring",
+                        "apps": {
+                            "UK": [
+                                "Babylon Health"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Appointments bookable",
+                                "Prescription management working",
+                                "Health records visible"
+                            ],
+                            "web": [
+                                "Doctor search functional",
+                                "Consultation booking available",
+                                "Health records visible"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Slow syncing",
+                                "Push notifications missing"
+                            ],
+                            "web": [
+                                "Broken links",
+                                "Slow page load",
+                                "Session timeout"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Prescription management",
+                        "apps": {
+                            "UK": [
+                                "Babylon Health"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Appointments bookable",
+                                "Prescription management working",
+                                "Health records visible"
+                            ],
+                            "web": [
+                                "Doctor search functional",
+                                "Consultation booking available",
+                                "Health records visible"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Slow syncing",
+                                "Push notifications missing"
+                            ],
+                            "web": [
+                                "Broken links",
+                                "Slow page load",
+                                "Session timeout"
+                            ]
+                        }
+                    },
+                    {
+                        "Feature": "Health record access",
+                        "apps": {
+                            "UK": [
+                                "Push Doctor"
+                            ]
+                        },
+                        "acceptance_criteria": {
+                            "mobile": [
+                                "Video consultation works",
+                                "Doctor search functional",
+                                "Health record access available"
+                            ],
+                            "web": [
+                                "Consultation history accessible",
+                                "Health records visible",
+                                "Doctor search functional"
+                            ]
+                        },
+                        "common_bugs": {
+                            "mobile": [
+                                "App crashes",
+                                "Video lag",
+                                "Push notifications delayed"
+                            ],
+                            "web": [
+                                "Slow load",
+                                "Broken links",
+                                "Error saving data"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

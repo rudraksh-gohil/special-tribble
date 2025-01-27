@@ -1,0 +1,124 @@
+[
+{
+  "metadata": {
+    "Subdomain": "Telemedicine",
+    "Platform": "mobile",
+    "Software Type": "frontend",
+    "Requirement Type": "FR"
+  },
+  "data": {
+    "Feature Name": [
+      "Doctor profiles",
+      "Video consultation",
+      "Payment gateway"
+    ],
+    "User Stories": [
+      {
+        "Quality": "High",
+        "User Story": "As a healthcare professional, I want to access comprehensive doctor profiles, conduct smooth video consultations, and utilize a secure payment gateway so that I can provide high-quality patient care and manage my practice efficiently, considering factors like network connectivity, device compatibility, and data privacy, while also ensuring seamless integration with health records and appointment scheduling systems.",
+        "Acceptance Criteria": [
+          "Prescription management available",
+          "Appointment booking functional",
+          "Health record access available",
+          "Consultation request works",
+          "Doctor search works",
+          "Video consultation works",
+          "Doctor search functional",
+          "Appointment booking successful",
+          "Health records sync"
+        ],
+        "Common Bugs": {
+          "Functional": [
+            "Sync issues with health records",
+            "Video consultation dropped calls",
+            "Payment processing errors",
+            "Doctor profile information inaccurate"
+          ],
+          "Non-Functional": [
+            "App crashes unexpectedly",
+            "Video call lag",
+            "Push notifications delayed",
+            "Inconsistent user interface"
+          ]
+        },
+        "App Names": {
+          "USA": [
+            "HealthTap",
+            "Teladoc Health"
+          ],
+          "UK": [
+            "Push Doctor"
+          ],
+          "India": [
+            "Practo"
+          ]
+        }
+      },
+      {
+        "Quality": "Average",
+        "User Story": "As a user, I want to view doctor profiles, have video consultations, and make payments easily so that I can get the medical help I need and manage my appointments and health records effectively, with a user-friendly interface and minimal technical issues.",
+        "Acceptance Criteria": [
+          "Doctor profiles accessible",
+          "Video consultation functional",
+          "Payment processing successful",
+          "Health records accessible"
+        ],
+        "Common Bugs": {
+          "Functional": [
+            "Health records not syncing",
+            "Video consultation issues",
+            "Payment gateway errors"
+          ],
+          "Non-Functional": [
+            "App performance issues",
+            "Delayed notifications",
+            "UI inconsistencies"
+          ]
+        },
+        "App Names": {
+          "USA": [
+            "HealthTap",
+            "Teladoc Health"
+          ],
+          "UK": [
+            "Push Doctor"
+          ],
+          "India": [
+            "Practo"
+          ]
+        }
+      },
+      {
+        "Quality": "Low",
+        "User Story": "As a patient, I want to see my doctor's profile and have a video consultation so that I can get medical help.",
+        "Acceptance Criteria": [
+          "Doctor profile visible",
+          "Video call possible"
+        ],
+        "Common Bugs": {
+          "Functional": [
+            "Video call not working",
+            "Doctor profile not found"
+          ],
+          "Non-Functional": [
+            "App crashing",
+            "Slow loading"
+          ]
+        },
+        "App Names": {
+          "USA": [
+            "HealthTap",
+            "Teladoc Health"
+          ],
+          "UK": [
+            "Push Doctor"
+          ],
+          "India": [
+            "Practo"
+          ]
+        }
+      }
+    ]
+  }
+}
+]

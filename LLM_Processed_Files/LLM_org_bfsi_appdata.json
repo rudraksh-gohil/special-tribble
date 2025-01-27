@@ -1,0 +1,89 @@
+[
+{
+  "metadata": {
+    "Subdomain": "Retail Banking",
+    "Platform": "mobile",
+    "Software Type": "frontend",
+    "Requirement Type": "FR"
+  },
+  "data": {
+    "Feature Name": [
+      "UPI Payments"
+    ],
+    "User Stories": [
+      {
+        "Quality": "High",
+        "User Story": "As a retail banking user, I want to make UPI payments securely using two-factor authentication, receive real-time payment notifications, and have my session timed out after 5 minutes of inactivity, so that I can confidently transact and manage my finances on the go, considering I'm an expert user who values speed and security, but sometimes faces issues like failed transactions during peak hours or wallet balance update delays.",
+        "Acceptance Criteria": [
+          "Complete UPI transactions with two-factor authentication",
+          "Send payment notifications in real-time",
+          "Provide a secure session timeout after 5 minutes of inactivity"
+        ],
+        "Common Bugs": {
+          "Functional": [
+            "Failed UPI transactions during peak hours",
+            "Wallet balance update delays",
+            "Invalid payment gateway errors"
+          ],
+          "Non-Functional": [
+            "Connectivity issues causing payment failures",
+            "Inconsistent user interface for payment confirmation",
+            "Insufficient error handling for declined transactions"
+          ]
+        },
+        "App Names": {
+          "India": [
+            "HDFC - Mobile Banking",
+            "Paytm Payments Bank"
+          ]
+        }
+      },
+      {
+        "Quality": "Average",
+        "User Story": "As a banking user, I want to use UPI payments for convenient transactions, with real-time notifications and secure session management, considering I'm a casual user who wants ease of use but might encounter some connectivity issues or payment processing delays.",
+        "Acceptance Criteria": [
+          "Complete UPI transactions with two-factor authentication",
+          "Send payment notifications in real-time"
+        ],
+        "Common Bugs": {
+          "Functional": [
+            "Failed UPI transactions",
+            "Wallet balance update issues"
+          ],
+          "Non-Functional": [
+            "Connectivity problems",
+            "User interface inconsistencies"
+          ]
+        },
+        "App Names": {
+          "India": [
+            "HDFC - Mobile Banking",
+            "Paytm Payments Bank"
+          ]
+        }
+      },
+      {
+        "Quality": "Low",
+        "User Story": "I want to make payments using UPI for simple transactions, with basic security and notification features, as a novice user who prioritizes ease of use.",
+        "Acceptance Criteria": [
+          "Complete UPI transactions"
+        ],
+        "Common Bugs": {
+          "Functional": [
+            "Payment failures"
+          ],
+          "Non-Functional": [
+            "Connectivity issues"
+          ]
+        },
+        "App Names": {
+          "India": [
+            "HDFC - Mobile Banking",
+            "Paytm Payments Bank"
+          ]
+        }
+      }
+    ]
+  }
+}
+]
