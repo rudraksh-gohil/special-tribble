@@ -102,7 +102,7 @@ def SYS_MongoDataUploader(MONGO_URI, DATABASE_NAME, FORMATTED_SCHEMA_DIR):
     if db_handler.db is not None:  # Explicit comparison to None
         # Initialize the uploader and process JSON files
         uploader = MongoDataUploadeR(db_handler, FORMATTED_SCHEMA_DIR)
-        uploader.upload_data("data")
+        uploader.upload_data("SYSdata")
     else:
         logging.error("Database connection not established. Aborting process.")
 
