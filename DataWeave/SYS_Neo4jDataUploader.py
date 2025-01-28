@@ -68,7 +68,10 @@ class DataProcessor:
         self.driver = driver
 
     def create_or_find_node(self, label, properties):
-        query = f"MERGE (n:{label} {{ {properties} }}) RETURN id(n) AS node_id"
+        query = f"""
+        MERGE (n:{label} {{{properties}}})
+        RETURN id(n) AS node_id
+        """
         with self.driver.session() as session:
             result = session.run(query)
             return result.single()['node_id']
@@ -152,12 +155,12 @@ class DataProcessor:
                     common_bugs = user_story["common bugs"]
                     for bug_type, bugs in common_bugs.items():
                         # Replace FR and NFR with Functional and Non-Functional
-                        if bug_type == "FR":
+                        if bug_type == "fr":
                             bug_type = "functional"
-                        elif bug_type == "NFR":
+                        elif bug_type == "nfr":
                             bug_type = "non-functional"
 
-                        bug_type_properties = f'bug_type: "{bug_type}"'
+                        bug_type_properties = f'type: "{bug_type}"'
                         bug_type_node_id = self.create_or_find_node("RequirementType", bug_type_properties)
                         self.create_relationship(bug_type_node_id, user_story_node_id, "HAS_BUG_TYPE")
 
