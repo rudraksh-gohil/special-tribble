@@ -137,8 +137,13 @@ class DataProcessor:
                 for user_story in subsystem["user_stories"]:
                     user_story_text = user_story["description"]
                     user_quality = user_story["quality"]
-                    user_story_properties = f'user_story: "{user_story_text}", quality: "{user_quality}"'
+                    user_story_properties = f'user_story: "{user_story_text}"'
                     user_story_node_id = self.create_or_find_node("UserStory", user_story_properties)
+
+                    quality_properties = f"quality: '{user_quality}'"
+                    quality_node_id = self.create_or_find_node("Quality", quality_properties)
+                    self.create_relationship(quality_node_id, user_story_node_id, "IS_QUALITY_OF")
+
                     self.create_relationship(user_story_node_id, subsystem_node_id, "ASSOCIATED_WITH_SUBSYSTEM")
                     self.create_relationship(user_story_node_id, feature_node_id, "IS_A_USER_STORY_FOR")
 
